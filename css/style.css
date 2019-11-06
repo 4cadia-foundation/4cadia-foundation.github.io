@@ -9,21 +9,23 @@ li {
 
 /* Header - section style */
 header {
+  width: 100%;
+  height: 7vh;
   background: #071D49;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 30px;
 }
 
 .header {
+  padding: 0 30px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .header li {
-  display: inline-block;
+  display: flex;
 }
 
 .header-itens {
