@@ -93,3 +93,38 @@ line-height: 48px;
   align-items: center;
   flex-wrap: wrap;
 }
+
+#section-about {
+  width: 50em;
+  height: 65vh;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  line-height: 34px;
+}
+
+#section-about h1 {
+  color: #071D49;
+  padding: 1em;
+}
+
+#section-about p {
+  text-align: left;
+  font-size: 18px;
+}
+
+#symbol-c{
+  width: 300px;
+  padding: 0.5em;
+  position: absolute;
+  top: 30 px; 
+  left: -5em;
+}
+
+#symbol-a{
+  width: 300px;
+  padding: 9em;
+  position: absolute;
+  right: -13em;
+}
