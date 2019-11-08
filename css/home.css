@@ -95,16 +95,18 @@ line-height: 48px;
 }
 
 /* Generic */
-.card-section {
+.card-section--box {
   width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
-.card-section--box {
-  width: 80%;
+.card-section {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-section--image {
