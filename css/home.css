@@ -115,16 +115,16 @@ line-height: 48px;
 }
 
 #symbol-c{
-  width: 300px;
-  padding: 0.5em;
+  width: 160px;
+  padding: 2em;
   position: absolute;
   top: 30 px; 
-  left: -5em;
+  left: -3em;
 }
 
 #symbol-a{
-  width: 300px;
+  width: 160px;
   padding: 9em;
   position: absolute;
-  right: -13em;
+  right: -9em;
 }
