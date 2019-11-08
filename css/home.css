@@ -97,18 +97,35 @@ line-height: 48px;
 /* Generic */
 .card-section--box {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 .card-section {
   width: 90%;
   height: auto;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .card-section--image {
   height: 65vh;
+}
+
+.card-section--text {
+  color: #071D49;
+}
+
+.card-section--text {
+  font-size: 2em;
+}
+
+.title-foundation{
+  color: #0047BB;
+}
+
+.title-factory {
+  color: #071D49;
 }
