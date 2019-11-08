@@ -325,3 +325,8 @@ body {
   position: absolute;
   right: -9em;
 }
+
+/* Projects */
+.projects-content div {  
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+}
