@@ -174,3 +174,45 @@ line-height: 48px;
   height: 100%;
   opacity: 0.2;
 }
+
+/* About - section style */
+#section-about {
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.about-content {
+  width: 50em;
+  height: 65vh;
+  margin: auto;
+  text-align: center;
+  line-height: 34px;
+}
+
+.about-content h1 {
+  color: #071D49;
+  padding: 1em;
+}
+
+.about-content p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.symbol-c {
+  width: 160px;
+  padding: 2em;
+  position: absolute;
+  top: 30 px; 
+  left: -3em;
+}
+
+.symbol-a {
+  width: 160px;
+  padding: 9em;
+  position: absolute;
+  right: -9em;
+}
