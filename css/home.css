@@ -4,3 +4,20 @@
   background-image: url(../assets/images/Rectangle.jpg);
   background-size: cover;
 }
+
+/* Generic */
+.card-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section--box {
+  width: 80%;
+}
+
+.card-section--image {
+  height: 65vh;
+}
