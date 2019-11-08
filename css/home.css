@@ -21,3 +21,60 @@
 .card-section--image {
   height: 65vh;
 }
+
+#section-about h1 {
+  color: #071D49;
+  padding: 1em;
+}
+
+#section-about p {
+  text-align: left;
+  font-size: 18px;
+}
+
+#symbol-c{
+  width: 160px;
+  padding: 2em;
+  position: absolute;
+  top: 30 px; 
+  left: -3em;
+}
+
+#symbol-a{
+  width: 160px;
+  padding: 9em;
+  position: absolute;
+  right: -9em;
+}
+
+#section-projects {
+  width: 50em;
+  height: 400vh;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  line-height: 34px;
+}
+
+#section-projects h1 {
+  color: #071D49;
+  padding: 1em;
+
+}
+
+
+
+
+.button_4cadia {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
