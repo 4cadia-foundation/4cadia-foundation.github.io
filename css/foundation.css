@@ -257,3 +257,28 @@ body {
     position: absolute;
     right: -9em;
   }
+
+  #section-projects {
+    width: 50em;
+    height: 65vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    line-height: 34px;
+  }
+
+
+
+  .button_4cadia {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
