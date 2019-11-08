@@ -93,3 +93,20 @@ line-height: 48px;
   align-items: center;
   flex-wrap: wrap;
 }
+
+/* Generic */
+.card-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section--box {
+  width: 80%;
+}
+
+.card-section--image {
+  height: 65vh;
+}
