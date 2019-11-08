@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -13,7 +14,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
   background-image: url(../assets/images/Rectangle.jpg);
   background-size: cover;
 }
@@ -33,15 +33,14 @@ main {
 }
 
 .banner-content p {
-font-size: 2em;
-font-weight: bold;
-line-height: 48px;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 48px;
 }
 
 #banner-logo {
-  height: 14vh;
-  z-index: 999;
-  padding-bottom: 2em ;
+  max-height: 14vh;
+  padding-bottom: 2em;
 }
 
 .banner-background {
@@ -94,38 +93,96 @@ line-height: 48px;
   flex-wrap: wrap;
 }
 
-/* Generic */
+.info .card-section--subtitle {
+  font-size: 2.2em;
+}
+
+.info .card-section--text {
+  width: 60%;
+  padding-top: 45px;
+  text-align: center;
+}
+
+.info .card-section--image {
+  width: 40%;
+}
+
+
 .card-section--box {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 45px 0px;
 }
 
 .card-section {
-  width: 90%;
+  max-width: 90%;
   height: auto;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
 
 }
 
-.card-section--image {
-  height: 65vh;
+.card-image {
+  max-height: 65vh;
 }
 
 .card-section--text {
   color: #071D49;
+  width: 50%;
+  margin: auto;
 }
 
-.card-section--text {
+.card-section--subtitle {
+  font-size: 1.25em;
+}
+
+.card-section--text h3 {
   font-size: 2em;
 }
 
-.title-foundation{
+.title-foundation {
   color: #0047BB;
 }
 
 .title-factory {
   color: #071D49;
+}
+
+.card-section--button {
+  width: 253px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-factory {
+  background: #071D49;
+}
+
+.btn-factory:hover {
+  background: #0047BB;
+  transition: 0.3s;
+}
+
+.btn-foundation {
+  background: #0047BB;
+}
+
+.btn-foundation:hover {
+  background: #071D49;
+  transition: 0.3s;
+}
+
+.card-section--image {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
