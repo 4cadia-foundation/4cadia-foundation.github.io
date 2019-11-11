@@ -119,7 +119,7 @@
 }
 
 .development-list .card-content h4 {
-  font-style: normal
+  font-style: normal;
   font-weight: 500;
   font-size: 1.25em;
   line-height: 31px;
@@ -201,4 +201,63 @@
   letter-spacing: 0.1px;
   color: #3E4345;
   text-align: center;
+}
+
+/* Consulting - section style */
+.team-content {
+  padding: 5% 0;
+}
+
+.team-content h2 {
+  text-align: center;
+  color: #071D49;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.441em;
+  line-height: 60px;
+}
+
+.team-list {
+  max-width: 60%;
+  padding: 0;
+  margin: auto;
+}
+
+.team-list .list-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.team-list .list-row:first-child {
+  justify-content: flex-start;
+  margin-bottom: 60px;
+}
+
+.team-list .list-row:last-child {
+  justify-content: flex-end;
+}
+
+.team-list .list-row .item {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.team-list .list-row .item:first-child {
+  margin-right: 80px;
+}
+
+.team-list .list-row .item img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto 30px auto 0;
+}
+
+.team-list .list-row .item h4 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  max-width: 250px;
 }
