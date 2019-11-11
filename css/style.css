@@ -186,7 +186,6 @@ line-height: 48px;
 
 .about-content {
   width: 50em;
-  height: 65vh;
   margin: auto;
   text-align: center;
   line-height: 34px;
@@ -204,15 +203,14 @@ line-height: 48px;
 
 .symbol-c {
   width: 160px;
-  padding: 2em;
   position: absolute;
-  top: 30 px; 
-  left: -3em;
+  left: 0;
+  bottom: 0;
 }
 
 .symbol-a {
   width: 160px;
-  padding: 9em;
   position: absolute;
-  right: -9em;
+  right: 0;
+  bottom: 0;
 }
