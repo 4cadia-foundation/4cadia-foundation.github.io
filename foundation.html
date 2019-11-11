@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel='icon' href='./assets/icons/logo_icon.png' type='image/x-icon'>
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/foundation.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
 
     <title>4CADIA - Home</title>
@@ -15,7 +15,7 @@
 
 <body>
 
-    <main>
+    <main></main>
         <!-- Header -->
         <header>
             <div class="header">
@@ -56,20 +56,27 @@
             <div class="projects-content">
                 <h1>Projects</h1>
                 
-                <div>
+                <div class="projects-4cadia">
                     <img id="logo-4cadia" src="./assets/images/4cadia_logo.svg" alt="Logo 4Cadia">
-                    <p>Building the descentralized future</p>
-                    <button class="button_4cadia">More Info</button>
+                    <div>
+                        <p>Building the descentralized future</p>
+
+                        <form action="index.html">
+                            <button class="button_4cadia">More Info (button)</button>
+                        </form>
+                        
+                        <a href="index.html" class="button_4cadia">More Info (a)</a>
+                    </div>                    
                 </div>
                 
-                <div>
+                <div class="projects-janus">
                     <img id="janus-logo" src="./assets/images/janus-logo.svg" alt="Logo Janus">
                     <img id="group-janus" src="./assets/images/group-janus.svg" alt="Group Janus">
                     <p>The gateway to the crypto universe</p>
                     <button class="button_janus">More Info</button>
                 </div>                
                 
-                <div>
+                <div class="projects-holon">
                     <img id="holon_logo" src="./assets/images/holon_logo.svg" alt="Logo Holon">
                     <p>Decentralized identity and trustworthy data</p>
                     <button class="button_holon">More Info</button>
