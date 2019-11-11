@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel='icon' href='./assets/icons/logo_icon.png' type='image/x-icon'>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
@@ -12,8 +13,7 @@
     <title>4CADIA - Home</title>
 </head>
 
-<body>
-
+<body class="container">
     <main>
         <!-- Header -->
         <header>
@@ -21,7 +21,7 @@
                 <img class="logo" src="./assets/images/logo_white.png" alt="logo 4cadia" />
 
                 <ul class="header-itens">
-                    <li><a href="./">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./foundation.html">Foundation</a></li>
                     <li><a href="./factory.html">Factory</a></li>
                     <li><a href="#section-contact">Contact</a></li>
@@ -29,49 +29,38 @@
             </div>
         </header>
 
-        <!-- Mission -->
-        <section id="section-mission">      
-        </section>
-
-        <!-- Factory Target -->
-        <section id="section-target-factory">    
-        </section>
-        
-        <!-- Foundation Target -->
-        <section id="section-target-foundation">       
-        </section>
-
         <!-- Banner -->
         <section id="section-banner">
 
             <div class="banner-content">
-                <img id="banner-logo" src="./assets/images/logo.svg" alt="logo 4cadia" />
+                <img class="card-image" src="./assets/images/logo.svg" alt="logo 4cadia" />
                 <h1>Disruptive technology is our passion</h1>
                 <p>L3T’S BU1LD THE D3CENTR4L1ZED FUTUR3</p>
             </div>
         </section>
 
-            <!-- Main Info -->
-            <div class="card-section--box">
+        <!-- Main Info -->
+        <div class="card-section--box ">
             <section class="card-section info">
-                <div class="card-section--text">
-                    <p class="card-section--subtitle">The blockchain revolution is inevitable, global and approaching
+                <div class="card-section--text col-md-8">
+                    <p class="card-section--subtitle">The blockchain revolution is inevitable, global and
+                        approaching
                         faster each year.</p>
                     <p class="card-section--subtitle">Let's build the decentralized future together?</p>
                 </div>
 
-                <div class="card-section--image">
+                <div class="card-section--image col-md-4">
                     <img class="card-image" src="./assets/images/Symbol_Logo.png" alt="icone 4cadia" />
                 </div>
             </section>
 
             <!-- Foundation -->
-            <section class="card-section">
-                <div class="card-section--image">
+            <section class="card-section .col-12">
+                <div class="card-section--image col-md-5">
                     <img class="card-image" src="./assets/images/undraw_connected_world_wuay.svg" alt="" />
                 </div>
 
-                <div class="card-section--text">
+                <div class="card-section--text col-md-7">
                     <h3 class="title-foundation">Foundation</h3>
                     <p class="card-section--subtitle">We are a social impact institution with the mission of supporting
                         the open source development of
@@ -88,24 +77,26 @@
 
             <!-- Factory -->
             <section class="card-section">
-                <div class="card-section--text">
-                    <h3 class="title-factory">Factory</h3>
-                    <p class="card-section--subtitle">4CADIA Factory is a software factory specialized in blockchain
-                        solutions for the financial
-                        market,
-                        identity, infrastructure and other segments.</p>
-                    <p class="card-section--subtitle">Our goal is to decentralize interactions, abstract trust and align
-                        incentives to revolutionize
-                        the
-                        traditional marketplace.</p>
-                    <a href="./factory.html">
-                        <button class="card-section--button btn-factory">go to factory</button></a>
-
+                <div class="row">
+                    <div class="card-section--text col-12 col-sm-12 col-md-6 col-xl-6">
+                        <h3 class="title-factory">Factory</h3>
+                        <p class="card-section--subtitle">4CADIA Factory is a software factory specialized in blockchain
+                            solutions for the financial
+                            market,
+                            identity, infrastructure and other segments.</p>
+                        <p class="card-section--subtitle">Our goal is to decentralize interactions, abstract trust and
+                            align
+                            incentives to revolutionize
+                            the
+                            traditional marketplace.</p>
+                        <a href="./factory.html">
+                            <button class="card-section--button btn-factory">go to factory</button></a>
+                    </div>
+                    <div class="card-section--image col-12 col-sm-12 col-md-6 col-xl-6">
+                        <img class="card-image" src="./assets/images/Factory.svg" alt="" />
+                    </div>
                 </div>
 
-                <div class="card-section--image">
-                    <img class="card-image" src="./assets/images/Factory.svg" alt="" />
-                </div>
             </section>
         </div>
 
@@ -114,15 +105,14 @@
             <div class="contact-content">
                 <h3>Contact us </h3>
 
-                <div class="contact-info row">
-                    <div>
+                <div class="contact-info">
+                    <div class="col-md-6">
                         <p><strong>Matheus Pagani</strong></p>
                         <p>CEO</p>
                         <a href="mailto: matheus@4cadia.com">matheus@4cadia.com</a>
                         <p>+55 (11) 96346-8070</p>
                     </div>
-                    <div>
-
+                    <div class="col-md-6">
                         <p><strong>Danilo Falco</strong></p>
                         <p>Manager</p>
                         <a href="mailto: matheus@4cadia.com">danilo@4cadia.com</a>

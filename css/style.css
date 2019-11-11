@@ -45,6 +45,7 @@ header {
 
 .header-itens {
   display: flex;
+  margin-bottom: 0px;
 }
 
 .header-itens a {
@@ -100,7 +101,7 @@ footer {
 /* Contact - section style */
 #section-contact {
   width: 100%;
-  height: 45vh;
+  height: auto;
   background: #071d49;
   border-bottom: 1px solid #eae9e9;
   color: #6ad1e3;
@@ -108,6 +109,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
+
 }
 
 .contact-content h3 {
@@ -127,11 +129,11 @@ footer {
 .contact-content {
   width: 940px;
   font-size: 16px;
+  margin: 30px;
 }
 
 .contact-info {
   display: flex;
-  width: 60%;
 }
 
 /* Banner - section style */
@@ -215,4 +217,30 @@ line-height: 48px;
   padding: 9em;
   position: absolute;
   right: -9em;
+}
+
+/* Responsive */ 
+.container {
+  padding: 0px;
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width:100%;
+  }
+}
+@media (min-width:768px) {
+  .container {
+    max-width:100%;
+  }
+}
+@media (min-width:992px) {
+  .container {
+    max-width:100%;
+  }
+}
+@media (min-width:1200px) {
+  .container {
+    max-width:100%;
+  }
 }

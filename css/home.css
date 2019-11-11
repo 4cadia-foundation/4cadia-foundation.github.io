@@ -3,6 +3,12 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.container-home {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
 main {
   width: 100%;
 }
@@ -90,7 +96,6 @@ main {
 
 .info .card-section--text {
   width: 60%;
-  padding-top: 45px;
   text-align: center;
 }
 
@@ -105,19 +110,19 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 45px 0px;
+  padding: 45px 30px;
 }
 
 .card-section {
-  max-width: 90%;
   height: auto;
   display: flex;
   flex-direction: row;
-
+  padding: 45px 30px;
 }
 
 .card-image {
-  max-height: 65vh;
+  max-width: 100%;
+  height: auto;
 }
 
 .card-section--text {
@@ -172,7 +177,8 @@ main {
 }
 
 .card-section--image {
-  max-width: 50%;
+  /* max-width: 50%; */
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
