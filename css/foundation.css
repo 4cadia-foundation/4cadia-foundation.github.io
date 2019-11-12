@@ -1,134 +1,6 @@
 body {
     font-family: "Noto Sans", sans-serif;
-  }
-  
-  main {
-    width: 100%;
-  }
-  
-  /* Banner - section style */
-  #section-banner {
-    width: 100%;
-    height: 93vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
-    background-image: url(../assets/images/Rectangle.jpg);
-    background-size: cover;
-  }
-  
-  .banner-content {
-    width: 940px;
-    height: 40vh;
-    display: block;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .banner-content h1 {
-    font-size: 3.2em;
-    line-height: 75px;
-  
-  }
-  
-  .banner-content p {
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 48px;
-  }
-  
-  #banner-logo {
-    height: 14vh;
-    z-index: 999;
-    padding-bottom: 2em ;
-  }
-  
-  .banner-background {
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-  }
-  
-  /* Contact - section style */
-  #section-contact {
-    width: 100%;
-    height: 45vh;
-    background: #071d49;
-    border-bottom: 1px solid #eae9e9;
-    color: #6ad1e3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  
-  .contact-content h3 {
-    margin: 0px 0px 30px 0px;
-    font-size: 45px;
-  }
-  
-  .contact-info p,
-  .contact-info a {
-    margin: 10px 0px 10px 0px;
-  }
-  
-  .contact-info strong {
-    font-size: 20px;
-  }
-  
-  .contact-content {
-    width: 940px;
-    font-size: 16px;
-  }
-  
-  .contact-info {
-    display: flex;
-    width: 60%;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  #section-about {
-    width: 50em;
-    height: 65vh;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    margin: auto;
-    line-height: 34px;
-  }
-  
-  #section-about h1 {
-    color: #071D49;
-    padding: 1em;
-  }
-  
-  #section-about p {
-    text-align: left;
-    font-size: 18px;
-  }
-  
-  #symbol-c{
-    width: 160px;
-    padding: 2em;
-    position: absolute;
-    top: 30 px; 
-    left: -3em;
-  }
-  
-  #symbol-a{
-    width: 160px;
-    padding: 9em;
-    position: absolute;
-    right: -9em;
-  }body {
-    font-family: "Noto Sans", sans-serif;
+    /* overflow-x: hidden; */
   }
   
   main {
@@ -257,36 +129,144 @@ body {
     position: absolute;
     right: -9em;
   }
-
   
+  main {
+    width: 100%;
+  }
+  
+  /* Banner - section style */
+  #section-banner {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
+    background-image: url(../assets/images/Rectangle.jpg);
+    background-size: cover;
+  }
+  
+  .banner-content {
+    width: 940px;
+    height: 40vh;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .banner-content h1 {
+    font-size: 3.2em;
+    line-height: 75px;
+  
+  }
+  
+  .banner-content p {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 48px;
+  }
+  
+  #banner-logo {
+    height: 14vh;
+    z-index: 999;
+    padding-bottom: 2em ;
+  }
+  
+  .banner-background {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
+  
+  /* Contact - section style */
+  #section-contact {
+    width: 100%;
+    height: 45vh;
+    background: #071d49;
+    border-bottom: 1px solid #eae9e9;
+    color: #6ad1e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .contact-content h3 {
+    margin: 0px 0px 30px 0px;
+    font-size: 45px;
+  }
+  
+  .contact-info p,
+  .contact-info a {
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .contact-info strong {
+    font-size: 20px;
+  }
+  
+  .contact-content {
+    width: 940px;
+    font-size: 16px;
+  }
+  
+  .contact-info {
+    display: flex;
+    width: 60%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #section-about {
+    width: 50em;
+    height: 65vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    line-height: 34px;
+  }
+  
+  #section-about h1 {
+    color: #071D49;
+    padding: 1em;
+  }
+  
+  #section-about p {
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  #symbol-c{
+    width: 160px;
+    padding: 2em;
+    position: absolute;
+    top: 30 px; 
+    left: -3em;
+  }
+  
+  #symbol-a{
+    width: 160px;
+    padding: 9em;
+    position: absolute;
+    right: -9em;
+  }
 
   #section-projects {
-    width: 50em;
-    height: 65vh;
+    /* width: 50em;
     justify-content: center;
     text-align: center;
     display: flex;
     margin: auto;
-    line-height: 34px;
+    line-height: 34px; */
+    width: 100%;
+    overflow: hidden;
   }
-
-
-
-  /* .button_4cadia {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 12px;
-  }
-  .button_4cadia:hover {
-    text-decoration: underline;
-  } */
 
 /* Banner - section style */
 #section-banner {
@@ -331,62 +311,51 @@ body {
   right: -9em;
 }
 
-/* Projects */
-/* .projects-4cadia, 
-.projects-janus,
-.projects-holon {  
-  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
-  padding: 69px 350px;
-}
-
-.projects-content h1{
-  color: #071D49;
-}
-
-.projects-4cadia p {  
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 65px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.44px;
-  color: #071D49;
-}
-
-#logo-4cadia {
-  
-}
-#janus-logo, 
-#group-janus,
-#holon-logo {
-
-  width: 300px;
-} */
-
-
 .container_projects {
   display: flex;
-  /* margin: 20px auto; */
-  /* max-width: 500px; */
   text-align: left;
+  width: auto;
+  margin: 0px auto;
+  padding: 50px 20px 50px 0;
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+  justify-content: space-between;
 }
-.container_projects div {
-  margin: 8px 4px;
-  font-size: 1em;
-  color: #fff;
+.container_projects .projects-logo {
+  width: 40%;
+  display: flex;
 }
 
-.button_4cadia,
-.button_janus,
-.button_holon {
+.container_projects .projects-logo img {
+  width: 100%;
+  margin: auto;
+}
+
+.container_projects .project-text {
+  margin: auto 4px;
+  font-size: 1em;
+  color: #fff;
+  width: 50%;
+}
+
+.container_projects .project-text p {
+  font-size: 2.4em;
+  line-height: 65px;
+  align-items: center;
+  letter-spacing: 0.44px;
+  margin-top: 0;
+
+
+}
+
+.project-button {
   box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
   border-radius: 10px;
-  padding: 17px 69px ;
   color: white;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 60px;
+  display: block;
+  width: 250px;
+  text-align: center;
 }
 
 .button_4cadia {
@@ -407,66 +376,32 @@ body {
   background-color: #FF9900;
 }
 
-.projects-4cadia, 
-.projects-janus,
-.projects-holon {  
-  width: 100%;
-  margin: 0 auto;
-  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
-}
-
 .projects-content h1{
 color: #071D49;
-}
-
-.projects-4cadia {
-  padding: 65px 96px;
-}
-
-.projects-4cadia div {
-  margin-left: 185px;
+text-align: center;
 }
 
 .projects-4cadia p {  
-font-family: Noto Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 65px;
-display: flex;
-align-items: center;
-letter-spacing: 0.44px;
-color: #071D49;
+  color: #071D49;
+}
+
+.projects-4cadia .projects-logo img {
+  width: 80%;
 }
 
 .projects-janus p {  
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 65px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.44px;
   color: #442AB0;
+
   }
 
-  .projects-janus div {
-    margin-left: 128px;
-  }
+.projects-janus .projects-logo img:first-child {
+  width: 20%;
+}
+.projects-janus .projects-logo img:last-child {
+  width: 70%;
+}
 
-  .projects-holon p {  
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.44px;
-    color: #FF9900;
-    }
+.projects-holon p {  
+  color: #FF9900;
+}
 
-    .projects-holon div {
-      margin-left: 124px;
-    }
