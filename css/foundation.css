@@ -9,6 +9,7 @@
 #section-projects {
   width: 100%;
   overflow: hidden;
+  margin: 100px 0 0;
 }
 
 .container_projects {
@@ -20,6 +21,7 @@
   background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
   justify-content: space-between;
 }
+
 .container_projects .projects-logo {
   width: 40%;
   display: flex;
@@ -74,9 +76,10 @@
   background-color: #FF9900;
 }
 
-.projects-content h1{
+.projects-content h1 {
   color: #071D49;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .projects-4cadia p {  
