@@ -1,0 +1,43 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+  }
+
+.button_4cadia {
+    background-color: #009CDE;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.button_4cadia:hover {
+    text-decoration: underline;
+}
+
+.projects-4cadia, 
+.projects-janus,
+.projects-holon {  
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+  padding: 69px 350px;
+}
+
+.projects-content h1{
+  color: #071D49;
+}
+
+.projects-4cadia p {  
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.44px;
+  color: #071D49;
+}
