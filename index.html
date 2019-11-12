@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <link rel='icon' href='./assets/icons/logo_icon.png' type='image/x-icon'>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/4cadia.css">
     <link rel="stylesheet" href="./css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- Hotjar Tracking Code for https://4cadia-foundation.github.io/ -->
     <script>
@@ -33,7 +34,7 @@
                 <img class="logo" src="./assets/images/logo_white.png" alt="logo 4cadia" />
 
                 <ul class="header-itens">
-                    <li><a href="./">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./foundation.html">Foundation</a></li>
                     <li><a href="./factory.html">Factory</a></li>
                     <li><a href="#section-contact">Contact</a></li>
@@ -78,7 +79,7 @@
             </section>
 
             <!-- Foundation -->
-            <section class="card-section">
+            <section class="card-section" id="section-target-foundation">
                 <div class="card-section--image">
                     <img class="card-image" src="./assets/images/undraw_connected_world_wuay.svg" alt="" />
                 </div>
@@ -99,7 +100,7 @@
             </section>
 
             <!-- Factory -->
-            <section class="card-section">
+            <section class="card-section" id="section-target-factory">
                 <div class="card-section--text">
                     <h3 class="title-factory">Factory</h3>
                     <p class="card-section--subtitle">4CADIA Factory is a software factory specialized in blockchain
@@ -144,10 +145,12 @@
             </div>
 
         </section>
+
     </main>
 
     <!-- Footer -->
     <footer>
+
         <img class="logo" src="./assets/images/logo_white.png" alt="4cadia logo" />
 
         <ul class="social-icons">
@@ -167,6 +170,25 @@
                 </a>
             </li>
         </ul>
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+                h._hjSettings = { hjid: 1558478, hjsv: 6 };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script'); r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-152066200-1');
+        </script>
     </footer>
 
 </body>

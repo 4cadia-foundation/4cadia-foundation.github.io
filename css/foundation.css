@@ -1,29 +1,187 @@
-#section-projects {
-  width: 50em;
-  height: 65vh;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  margin: auto;
-  line-height: 34px;
-}
-
-.button_4cadia {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 12px;
-}
-
 /* Banner - section style */
 #section-banner {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
   background-image: url(../assets/images/Hero_squares.png);
   background-size: 100% 100%;
+}
+
+/* Projects - section style */
+#section-projects {
+  width: 100%;
+  overflow: hidden;
+  margin: 100px 0 0;
+}
+
+.container_projects {
+  display: flex;
+  text-align: left;
+  width: auto;
+  margin: 0px auto;
+  padding: 50px 20px 50px 0;
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+  justify-content: space-between;
+}
+
+.container_projects .projects-logo {
+  width: 40%;
+  display: flex;
+}
+
+.container_projects .projects-logo img {
+  width: 100%;
+  margin: auto;
+}
+
+.container_projects .project-text {
+  margin: auto 4px;
+  font-size: 1em;
+  color: #fff;
+  width: 50%;
+}
+
+.container_projects .project-text p {
+  font-size: 2.4em;
+  line-height: 65px;
+  align-items: center;
+  letter-spacing: 0.44px;
+  margin-top: 0;
+}
+
+.project-button {
+  box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  line-height: 60px;
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+
+.button_4cadia {
+  background: #009CDE;
+}
+
+.button_4cadia:hover,
+.button_janus:hover,
+.button_holon:hover {
+  text-decoration: underline;
+}
+
+.button_janus {
+  background-color: #742D75;
+}
+
+.button_holon {
+  background-color: #FF9900;
+}
+
+.projects-content h1 {
+  color: #071D49;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-4cadia p {  
+  color: #071D49;
+}
+
+.projects-4cadia .projects-logo img {
+  width: 80%;
+}
+
+.projects-janus p {  
+  color: #442AB0;
+}
+
+.projects-janus .projects-logo img:first-child {
+  width: 20%;
+}
+.projects-janus .projects-logo img:last-child {
+  width: 70%;
+}
+
+.projects-holon p {  
+  color: #FF9900;
+}
+
+/* Contribute - section style */
+#section-contributing {
+  background: linear-gradient(90deg, #5BD0E4 0%, #255FAA 100%);
+}
+
+.contributing-content {
+  padding: 5% 0;
+}
+
+.contributing-content h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 2.441em;
+  line-height: 60px;
+}
+
+.contributing-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 80%;
+  padding: 0;
+  margin: auto;
+}
+
+.contributing-list .card {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #C6CACC;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
+  border-radius: 10px;
+  flex: 0 0 calc(33% - 50px);
+  margin: 25px auto;
+  max-width: 350px;
+  padding: 25px 20px;
+}
+
+.contributing-list .card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.contributing-list .card-content img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.contributing-list .card-content h3 {
+  font-weight: bold;
+  font-size: 1.953em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  color: #071D49;
+  display: block;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+
+.contributing-list .card-action {
+  box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  line-height: 2.4em;
+  display: block;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  background: #3F80BA;
+  cursor: pointer;
+}
+
+.contributing-list .card-action.disable {
+  cursor: not-allowed;
+  opacity: .5;
 }
