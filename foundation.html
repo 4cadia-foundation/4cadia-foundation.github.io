@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel='icon' href='./assets/icons/logo_icon.png' type='image/x-icon'>
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/foundation.css">
@@ -14,7 +15,7 @@
 
 <body>
 
-    <main>
+    <main></main>
         <!-- Header -->
         <header>
             <div class="header">
@@ -51,22 +52,40 @@
         </section>
 
         <!-- Projects -->
-        <section id="section-projects">
+         <section id="section-projects">
             <div class="projects-content">
                 <h1>Projects</h1>
-
-                <img id="logo-4cadia" src="/assets/images/4cadia_logo.svg" alt="Logo 4Cadia">
-                <p>Building the descentralized future</p>
-                <button class="button_4cadia">More Info</button>
-
-                <img id="janus-logo" src="/assets/images/janus-logo.svg" alt="Logo Janus">
-                <img id="group-janus" src="/assets/images/group-janus.svg" alt="Group Janus">
-                <p>The gateway to the crypto universe</p>
-                <button class="button_janus">More Info</button>
                 
-                <img id="holon_logo" src="/assets/images/holon_logo.svg" alt="Logo Holon">
-                <p>Decentralized identity and trustworthy data</p>
-                <button class="button_holon">More Info</button>
+                    <div class="projects-4cadia container_projects">
+                   <div class="projects-logo">
+                    <img id="logo-4cadia" src="./assets/images/logo_4cadia.svg" alt="Logo 4Cadia">
+                    </div>
+                    <div class="project-text">
+                        <p>Building the descentralized future</p>
+                        <a href="index.html" class="button_4cadia project-button">More Info</a>
+                    </div>                    
+                </div>
+                
+                <div class="projects-janus container_projects">
+                   <div class="projects-logo">
+                    <img id="janus-logo" src="./assets/images/janus-logo.svg" alt="Logo Janus">
+                    <img id="group-janus" src="./assets/images/group-janus.svg" alt="Group Janus">
+                    </div>
+                    <div class="project-text">
+                        <p>The gateway to the crypto universe</p>
+                        <a href="index.html" class="button_janus project-button">More Info (a)</a>
+                    </div>
+                </div>                
+                
+                <div class="projects-holon container_projects">
+                   <div class="projects-logo">
+                    <img id="holon-logo" src="./assets/images/holon_logo.svg" alt="Logo Holon">
+                    </div>
+                    <div class="project-text">
+                        <p>Decentralized identity and trustworthy data</p>
+                        <a href="index.html" class="button_holon project-button">More Info (a)</a>
+                    </div>
+                </div>                
             </div>
         </section>
 
