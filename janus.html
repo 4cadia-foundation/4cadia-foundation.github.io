@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./css/janus.normalize.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="./css/janus.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="./js/newsletter.js"></script>
 </head>
 
 <body>
@@ -19,7 +21,7 @@
       <img class="logo" src="./assets/images/logo_white.png" alt="logo 4cadia" />
 
       <ul class="header-itens">
-        <li><a href="./">Home</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./foundation.html">Foundation</a></li>
         <li><a href="./factory.html">Factory</a></li>
         <li><a href="#section-contact">Contact</a></li>
@@ -189,14 +191,14 @@
           Stay up to date and
           <em class="u-text-emphasis">change the world</em> with us.
         </p>
-        <form class="inline-form">
+        <div class="inline-form">
           <label class="u-sr-only" id="email-label" for="email" aria-label="email">E-mail</label>
           <input class="form__input form__input--text" type="email" name="email" id="email" placeholder="E-mail"
             aria-labelled-by="email-label" />
-          <button type="submit" class="form__submit btn btn--primary">
+          <button onclick="registerNewsletter('janus')" class="form__submit btn btn--primary">
             Subscribe
           </button>
-        </form>
+        </div>
       </main>
       <div class="side-by-side__spacer"></div>
       <aside class="side-by-side__illustration">

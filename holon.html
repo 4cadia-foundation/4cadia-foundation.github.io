@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/holon.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="./js/newsletter.js"></script>
     <title>Holon</title>
 </head>
 
@@ -18,7 +20,7 @@
             <img class="logo" src="./assets/images/logo_white.png" alt="logo 4cadia" />
 
             <ul class="header-itens">
-                <li><a href="./">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./foundation.html">Foundation</a></li>
                 <li><a href="./factory.html">Factory</a></li>
                 <li><a href="#section-contact">Contact</a></li>
@@ -181,8 +183,8 @@
 
         <section class="container-newsletter paragraph">
             <p>Stay updated and <strong class="title">change the world</strong> with us</p>
-            <input type="email" placeholder="youremail@email.com" id="input-newsletter">
-            <button class="button-newsletter">SUBSCRIBE</button>
+            <input type="email" placeholder="youremail@email.com" id="email" class="input-newsletter">
+            <button class="button-newsletter " onclick="registerNewsletter('holon')">SUBSCRIBE</button>
         </section>
 
     </main>
@@ -211,28 +213,26 @@
                 </div>
             </div>
         </div>
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+                h._hjSettings = { hjid: 1558478, hjsv: 6 };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script'); r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-152066200-1');
+        </script>
     </footer>
 </body>
-<footer>
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 1558478, hjsv: 6 };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script'); r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-152066200-1');
-    </script>
-</footer>
 
 </html>
