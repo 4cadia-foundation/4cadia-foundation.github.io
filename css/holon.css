@@ -1,0 +1,395 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+    margin: 10%;
+}
+
+#subtitle {
+    margin-top: 0;
+}
+
+.digital {
+    width: 90%;
+}
+
+.header-logo {
+    background: #071D49;
+}
+
+.logo img {
+    margin: 10px;
+}
+
+
+.translate {
+    background: #ffff;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 50%;
+    transform: translate(-50%, -5vw) scaleX(12) rotate(45deg);
+}
+.background {
+    background: linear-gradient( 70.55deg, #1A4DA0 0%, #00063C 71.88%, #071D49 100%);
+    display: flex;
+    align-items: center;
+    padding: 7rem 5rem calc(5rem + 5vw);
+}
+
+@-moz-document url-prefix() { 
+
+    .background {
+        padding: 6rem 5rem calc(5rem + 5vw);
+   } 
+
+   #subtitle {
+       font-size: 70px;
+   }
+
+   .container-content {
+       margin-top: -10%;
+   }
+
+   .how-holon {
+       margin-top: 6%;
+   }
+}
+
+
+.container-logo {
+    margin-left: -11vw;
+    transform: rotate(26deg);
+}
+
+.holon-logo {
+    margin-left: 4%;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+}
+
+.holon-logo img {
+    margin-left: -8%;
+}
+
+.holon-logo p {
+    width: 50%;
+    margin-top: -7%;
+    font-size: 35px;
+}
+
+.container-content {
+    margin-top: -11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.container-holon {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.container-holon h2 {
+    color: #F0AD4E;
+}
+
+.container-holon p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.container-content img {
+    margin-top: 10%;
+    margin-left: 14%;
+}
+
+.how-holon {
+    margin-top: 7%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.how-holon img {
+    margin-left: 5%;
+
+}
+
+.how-text {
+    margin-top: -7%;
+    margin-left: 191px;
+    width: 50%;
+    text-align: right;
+}
+
+.how-holon h2 {
+    color: #F0AD4E;
+}
+
+.how-holon p {
+    font-size: 15px;
+    text-align: right;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.actors {
+    text-align: center;
+    color: #F0AD4E;
+    margin-top: 8%;
+}
+
+.actors-boxes {
+    position: relative;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.actors-boxes::before {
+    z-index: -1;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    height: 108%;
+    transform: matrix(-0.99, 0.18, -0.16, -0.98, 0, 0);
+    background: linear-gradient(90deg, #F0AD4E 0%, #6F4912 100%);
+    border-radius: 50px;
+    background-size: contain;
+}
+
+.actors-box {
+    background: #fff;
+    height: 400px;
+    width: 32%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.actors-box p {
+    margin: 10px;
+}
+
+.title {
+    color: #F0AD4E;
+}
+
+.box-two {
+    background: #CE9037;
+    color: #fff;
+}
+
+.box-two h2 {
+    color: #fff;
+}
+
+.box-two p {
+    margin-top: -5px;
+}
+
+.box-three {
+    margin-top: -10px;
+}
+
+.paragraph {
+    font-size: 15px;
+}
+
+.howworks {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.howworks-box {
+    background: #fff;
+    height: 200px;
+    width: 80%;
+    margin-top: 1%;
+    border-radius: 20px;
+    box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2); 
+    border: 1px solid #C6CACC;   
+    display: flex;
+
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.img-validator {
+    margin: 24px;
+}
+
+.container-howworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-invite-dev {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.container-invite-dev img {
+    margin-left: 7%;
+}
+
+.container-invite-dev-text {
+   text-align: center;
+   margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #CE9037;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-github {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container-newsletter {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 13pt;
+}
+
+#input-newsletter {
+    width: 23%;
+    height: 5vh;
+    margin-right: 10px;
+    text-align: center;
+    border-radius:6px;
+    border:1px solid #CE9037;
+}
+
+.button-newsletter {
+    background-color:#F0AD4E;
+    border-radius:6px;
+    border:1px solid #F0AD4E;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration:none;
+}
+
+.button-newsletter:hover {
+    background-color:#CE9037;
+}
+
+.button-newsletter:active {
+    position:relative;
+    top:1px;
+}
+
+footer {
+    height: 105px;
+    background: #071D49;
+    margin-top: 60px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.footer-logo {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-content {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-developers {
+    color: #ffff;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.footer-icon {
+    width: 186px;
+    color: #ffff;
+    margin-right: 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icon p {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-font {
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+}
+
+.separation-text {
+    margin: 14px;
+    margin-top: -15px;
+}
+
+.rodmap-central {
+    margin-top: 10%;
+}
+
+.rodmap {
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.title-details {
+    margin-left: 14px;
+    margin-top: 25px;
+}
