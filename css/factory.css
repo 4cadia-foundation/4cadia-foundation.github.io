@@ -11,7 +11,7 @@
 }
 
 .process-content {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   padding: 50px 0;
 }
@@ -19,8 +19,6 @@
 .process-content h2 {
   text-align: center;
   color: white;
-  font-family: Noto Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 2.441em;
   line-height: 60px;
@@ -46,8 +44,6 @@
 }
 
 .process-text li > h4 {
-  font-family: Noto Sans;
-  font-style: normal;
   font-weight: 500;
   font-size: 1.563em;
   line-height: 38px;
@@ -57,9 +53,6 @@
 }
 
 .process-text li > p {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1em;
   line-height: 25px;
   text-align: center;
@@ -70,4 +63,191 @@
 
 .process-images img {
   width: 100%;
+}
+
+/* Development - section style */
+.development-content {
+  padding: 5% 0;
+}
+
+.development-content h2 {
+  text-align: center;
+  color: #071D49;
+  font-weight: 600;
+  font-size: 2.441em;
+  line-height: 60px;
+}
+
+.development-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 80%;
+  padding: 0;
+  margin: auto;
+}
+
+.development-list li {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #C6CACC;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
+  border-radius: 10px;
+  flex: 0 0 calc(33% - 50px);
+  margin: 25px auto;
+  max-width: 350px;
+  padding: 25px 20px;
+}
+
+.development-list .card-content {
+  margin: auto 0;
+  display: flex;
+  height: 100%;
+}
+
+.development-list .card-content img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto 10px auto 0;
+}
+
+.development-list .card-content h4 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  color: #071D49;
+  display: block;
+  margin: auto;
+}
+
+/* Consulting - section style */
+.consulting-content {
+  padding: 5% 0;
+}
+
+.consulting-content h2 {
+  text-align: center;
+  color: #071D49;
+  font-weight: 600;
+  font-size: 2.441em;
+  line-height: 60px;
+}
+
+.consulting-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 80%;
+  padding: 0;
+  margin: auto;
+}
+
+.consulting-list .card {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #C6CACC;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
+  border-radius: 10px;
+  flex: 0 0 calc(33% - 50px);
+  margin: 25px auto;
+  max-width: 350px;
+  padding: 25px 20px;
+}
+
+.consulting-list .card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.consulting-list .card-content img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.consulting-list .card-content h3 {
+  font-weight: bold;
+  font-size: 1.953em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  color: #071D49;
+  display: block;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+
+.consulting-list .content-list {
+  padding: 0;
+}
+
+.consulting-list .content-list li {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  color: #3E4345;
+  text-align: center;
+}
+
+/* Team - section style */
+.team-content {
+  padding: 5% 0;
+}
+
+.team-content h2 {
+  text-align: center;
+  color: #071D49;
+  font-weight: 600;
+  font-size: 2.441em;
+  line-height: 60px;
+}
+
+.team-list {
+  max-width: 80%;
+  padding: 0;
+  margin: auto;
+}
+
+.team-list .list-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.team-list .list-row:first-child {
+  justify-content: flex-start;
+  margin-bottom: 60px;
+}
+
+.team-list .list-row:last-child {
+  justify-content: flex-end;
+}
+
+.team-list .list-row .item {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.team-list .list-row .item:first-child {
+  margin-right: 5%;
+}
+
+.team-list .list-row .item img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto 30px auto 0;
+}
+
+.team-list .list-row .item h4 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  max-width: 250px;
 }
