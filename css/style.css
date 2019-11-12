@@ -122,7 +122,11 @@ footer {
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
-    user-select: none;          /* Likely future */   
+    user-select: none;          /* Likely future */
+    position: fixed;
+    width: 100vw;
+    background: #071d49;
+    z-index: 5;
   }
 
   .header-itens {
@@ -131,7 +135,7 @@ footer {
     background: #071D49;
     height: 100vh;
     right: 0;
-    top: 7vw;
+    top: 50px;
     padding: 50px 50px 0 50px;
     z-index: 5;
     margin: auto;
