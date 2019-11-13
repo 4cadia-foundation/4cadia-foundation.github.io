@@ -222,7 +222,6 @@ p + p {
 
 .v-cut {
   background: var(--color-bg-page);
-  position: absolute;
   width: 10vw;
   height: 10vw;
   left: 50%;
