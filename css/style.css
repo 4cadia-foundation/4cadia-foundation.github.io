@@ -116,7 +116,7 @@ footer {
     max-width:100%;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Menu Hamburguer */
   .header {
     -webkit-user-select: none;  /* Chrome all / Safari all */
