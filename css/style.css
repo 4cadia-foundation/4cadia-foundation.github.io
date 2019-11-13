@@ -127,6 +127,7 @@ footer {
     width: 100vw;
     background: #071d49;
     z-index: 5;
+    box-sizing: border-box;
   }
 
   .header-itens {
