@@ -1,0 +1,155 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+    #subtitle {
+        font-size: 30pt;
+    }
+
+    .holon-logo img {
+        padding-left: 4%;
+        width: 459.25pt;
+        height: 109pt;
+    }
+
+    .holon-logo p {
+        font-size: 20pt;
+        padding-top: 3%;
+    }
+
+    .holon-logo {
+        font-size: 25pt;
+    }
+
+    .digital {
+        width: 30vw;
+    }
+
+    .background {
+        height: 54vh;
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .container-content img {
+        margin: 0;
+        width: 312px;
+        height: 394px;
+    }
+
+    .container-holon {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .container-holon h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-holon {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .how-holon p {
+        text-align: justify;
+    }
+
+    .how-holon img {
+        display: none;
+        width: 40%;
+        margin-top: 3%;
+    }
+
+    .how-text {
+        margin: 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .container {
+        max-width: none;
+    }
+
+    .actors-boxes {
+        position: unset;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .actors-boxes::before {
+        display: none;
+    }
+
+    .actors-box {
+        margin-bottom: 3%;
+        height: 40%;
+        width: 60%;
+    }
+
+    .actors-content {
+        padding: 2% 0;
+    }
+
+    .howworks-box {
+        width: 90%;
+    }
+
+    .separation-text {
+        font-size: 10pt;
+    }
+
+    .howworks-box h2 {
+        font-size: 15pt;
+    }
+
+    .container-invite-dev {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .invite-dev-img {
+        width: 30%;
+    }
+
+    .button-newsletter {
+        padding: 8px 12px;
+    }
+
+    .paragraph-orange {
+        color: #F0AD4E;
+    }
+
+    .footer-content {
+        width: 60%;
+    }
+
+    .footer-developers {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 6%;
+    }
+
+    .icons {
+        margin: 0;
+        width: 80%;
+    }
+}
