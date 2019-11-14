@@ -112,7 +112,7 @@ main {
   max-width: 90%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
@@ -176,4 +176,5 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
