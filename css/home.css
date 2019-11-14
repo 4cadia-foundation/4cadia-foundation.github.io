@@ -101,3 +101,18 @@
   width: 100%;
 }
 
+@media (max-width: 600px)
+{
+  .card-section
+  {
+   flex-direction: column;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .card-section--image
+  {
+   margin: auto;
+  }
+}
