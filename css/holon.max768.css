@@ -1,0 +1,228 @@
+@media (max-width: 768px) {
+
+    .background {
+        padding: 3rem 2rem calc(5rem + 5vw);
+        flex-direction: column;
+    }
+
+    #subtitle {
+        font-size: 20pt;
+    }
+
+    .holon-logo {
+        align-items: center;
+        margin: 0;
+    }
+
+    .holon-logo img {
+        width: 270pt;
+        height: 60pt;
+        padding: 0px 0 0 33%;
+        margin: 0;
+    }
+
+    .digital {
+        margin-left: 0;
+        height: 28vh;
+        width: unset;
+
+    }
+
+    .holon-logo p {
+        font-size: 14pt;
+        padding-top: 3%;
+        
+    }
+
+    .container-holon {
+        width: 100%;
+    }
+    
+    .container-holon p {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .how-holon {
+        width: 100%;
+        margin-top: 0;  
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    }
+
+    .how-holon p {
+        font-size: 12px;
+    }
+
+    .how-holon img {
+        display: none;
+    }
+
+    .img-validator {
+        margin: 0;
+    }
+
+    .how-text {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-content {
+        width: unset;
+    }
+
+    .container-content img {
+        width: 292px;
+        height: 374px;
+    }
+
+    .title {
+        font-size: 13pt;
+    }
+
+    .actors-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: none;
+    }
+
+    .actors-boxes::before {
+        display: none;
+    }
+
+    .actors-box {
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .actors-box p {
+        font-size: 12px;
+    }
+
+    .container-howworks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howworks {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .howworks-box {
+        height: 40%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .howworks-box img {
+        display: none;
+    }
+
+    .howworks-box h2 {
+        font-size: 11pt;
+    }
+
+    .separation-text {
+        font-size: 9pt;
+        margin-top: 2%;
+    }
+
+    .container-invite-dev {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .invite-dev-img {
+        display: none;
+    }
+
+    #input-newsletter {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .paragraph {
+        font-size: 10pt;
+    }
+
+    .paragraph-orange {
+        color: #F0AD4E;
+    }
+
+    .button-newsletter {
+        width: 40%;
+    }
+    
+    .container-newsletter {
+        display: flex;
+        align-items: center;
+        margin-top: 10%;
+        font-size: 9pt;
+    }
+
+    .footer-logo {
+        width: unset;
+    }
+
+    .footer-content {
+        width: 46%;
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .footer-icon {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-logo img {
+        display: none;
+        margin: 0;
+    }
+
+    .roadmap-full {
+        display: none;
+    }
+
+    .roadmap-mobile {
+        display: initial;
+        height: 100vh;
+    }
+    .roadmap {
+        margin-top: 0;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+}

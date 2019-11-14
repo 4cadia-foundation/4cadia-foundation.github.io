@@ -13,38 +13,28 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/changan.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
-            <a href="index.html">
-                <img width="167" src="./assets/images/changan/logo-4cadia.svg" alt="4Cadia">
-            </a>
+        <div class="header">
+            <img class="logo" src="../assets/images/logo_white.png" alt="logo 4cadia" />
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-label="Alterna navegação">
-                <img width="16" src="./assets/images/changan/hamburguer.svg" alt="Menu Mobile">
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/foundation.html">Foundation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/factory">Factory</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contatct">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <input id="dropdown" class="hamburguer-check" type="checkbox">
+            <label for="dropdown" class="hamburguer-label">
+                <div class="menu-hamb">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul class="header-itens">
+                <li><a href="../">Home</a></li>
+                <li><a href="../foundation">Foundation</a></li>
+                <li><a href="../factory">Factory</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <section id="purpose">

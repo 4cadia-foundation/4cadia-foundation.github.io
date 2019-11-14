@@ -6,32 +6,39 @@
   <meta name="viewport" content="width=device-width" />
   <title>Janus Platform - The Gateway to the Crypto Universe</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/janus.normalize.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="./css/janus.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="../css/janus.normalize.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/janus.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/style.css">
 
-  <script type="text/javascript" src="./js/newsletter.js"></script>
+  <script type="text/javascript" src="../js/newsletter.js"></script>
 </head>
 
 <body>
 
-
-  <header class="page-header">
+  <!-- Header -->
+  <header>
     <div class="header">
-      <img class="logo" src="./assets/images/logo_white.png" alt="logo 4cadia" />
+      <img class="logo" src="../assets/images/logo_white.png" alt="logo 4cadia" />
 
+      <input id="dropdown" class="hamburguer-check" type="checkbox">
+      <label for="dropdown" class="hamburguer-label">
+        <div class="menu-hamb">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
       <ul class="header-itens">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./foundation.html">Foundation</a></li>
-        <li><a href="./factory.html">Factory</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../foundation">Foundation</a></li>
+        <li><a href="../factory">Factory</a></li>
         <li><a href="#section-contact">Contact</a></li>
       </ul>
     </div>
   </header>
+
   <div class="hero">
     <div class="janus-text hero__item u-vertical-center">
       <div class="hero__text-logo">
-        <img alt="Janus" class="u-responsive-img" src="./assets/images/janus/janus-text-logo.svg" />
+        <img alt="Janus" class="u-responsive-img" src="../assets/images/janus/janus-text-logo.svg" />
       </div>
       <hgroup class="hero__slogan">
         <h1 class="hero__title">The Gateway to the Crypto Universe</h1>
@@ -42,7 +49,7 @@
     </div>
     <div class="hero__item hero__item--spacer"></div>
     <div class="janus-avatar hero__item">
-      <img alt="Janus Logo" class="u-responsive-img hero__avatar" src="./assets/images/janus/janus-avatar.svg" />
+      <img alt="Janus Logo" class="u-responsive-img hero__avatar" src="../assets/images/janus/janus-avatar.svg" />
     </div>
   </div>
   <div class="v-cut"></div>
@@ -57,14 +64,14 @@
         <p>
           Our mission is to facilitate the transition, use Web 3.0
           applications spreading monetization in the model of multiple
-          profit centers that share value in an open network and find a new
+          profit centers that share value in an open network and find new
           forms and perspectives of applications developed to revolutionize
           the market, totally decentralized in Web 3.0.
         </p>
       </main>
       <div class="side-by-side__spacer"></div>
       <aside class="side-by-side__illustration">
-        <img src="./assets/images/janus/what-is-janus.svg" class="u-responsive-img" alt="What is Janus?" />
+        <img src="../assets/images/janus/what-is-janus.svg" class="u-responsive-img" alt="What is Janus?" />
       </aside>
     </section>
 
@@ -73,7 +80,7 @@
       <ul class="card-list card-list--horizontal u-unstyled-list">
         <li class="card">
           <div class="card__img card__img--smaller">
-            <img src="./assets/images/janus/features-indexer.svg" alt="Indexer"
+            <img src="../assets/images/janus/features-indexer.svg" alt="Indexer"
               class="u-responsive-img features__illustration" />
           </div>
           <h2 class="card__title content-section__subtitle">Indexer</h2>
@@ -84,7 +91,7 @@
         </li>
         <li class="card card--inverted">
           <div class="card__img card__img--smaller">
-            <img src="./assets/images/janus/features-search.svg" alt="Search"
+            <img src="../assets/images/janus/features-search.svg" alt="Search"
               class="u-responsive-img features__illustration" />
           </div>
           <h2 class="card__title content-section__subtitle">Search</h2>
@@ -95,7 +102,7 @@
         </li>
         <li class="card">
           <div class="card__img card__img--smaller">
-            <img src="./assets/images/janus/features-p2p-ads.svg" alt="P2P Ads"
+            <img src="../assets/images/janus/features-p2p-ads.svg" alt="P2P Ads"
               class="u-responsive-img features__illustration" />
           </div>
           <h2 class="card__title content-section__subtitle">P2P Ads</h2>
@@ -112,7 +119,7 @@
       <ul class="u-unstyled-list card-list card-list--vertical">
         <li class="card card--horizontal">
           <div class="card__img">
-            <img src="./assets/images/janus/how-it-works-indexer.svg" alt="Indexer" class="u-responsive-img" />
+            <img src="../assets/images/janus/how-it-works-indexer.svg" alt="Indexer" class="u-responsive-img" />
           </div>
           <div class="card__content-wrapper">
             <h2 class="card__title content-section__subtitle">Indexer</h2>
@@ -128,7 +135,7 @@
         </li>
         <li class="card card--horizontal">
           <div class="card__img">
-            <img src="./assets/images/janus/how-it-works-search.svg" alt="Search" class="u-responsive-img" />
+            <img src="../assets/images/janus/how-it-works-search.svg" alt="Search" class="u-responsive-img" />
           </div>
           <div class="card__content-wrapper">
             <h2 class="card__title content-section__subtitle">Search</h2>
@@ -143,7 +150,7 @@
         </li>
         <li class="card card--horizontal">
           <div class="card__img">
-            <img src="./assets/images/janus/how-it-works-p2p-ads.svg" alt="P2P Ads" class="u-responsive-img" />
+            <img src="../assets/images/janus/how-it-works-p2p-ads.svg" alt="P2P Ads" class="u-responsive-img" />
           </div>
           <div class="card__content-wrapper">
             <h2 class="card__title content-section__subtitle">P2P Ads</h2>
@@ -174,14 +181,14 @@
         <div class="github-cta-wrapper">
           <a class="btn btn--primary btn--cta btn--with-icon" href="https://github.com/4cadia-foundation/janus"
             target="_blank">
-            <img src="./assets/images/janus/github.svg" alt="Github" class="btn__icon btn__icon--left" />
+            <img src="../assets/images/janus/github.svg" alt="Github" class="btn__icon btn__icon--left" />
             <span class="btn__text">Open on Github</span>
           </a>
         </div>
       </main>
       <div class="side-by-side__spacer"></div>
       <aside class="side-by-side__illustration">
-        <img src="./assets/images/janus/contribute.svg" class="u-responsive-img" alt="Contribute" />
+        <img src="../assets/images/janus/contribute.svg" class="u-responsive-img" alt="Contribute" />
       </aside>
     </section>
 
@@ -202,7 +209,7 @@
       </main>
       <div class="side-by-side__spacer"></div>
       <aside class="side-by-side__illustration">
-        <img src="./assets/images/janus/stay-up-to-date.svg" class="u-responsive-img" alt="Stay up to date" />
+        <img src="../assets/images/janus/stay-up-to-date.svg" class="u-responsive-img" alt="Stay up to date" />
       </aside>
     </section>
   </main>
@@ -210,7 +217,7 @@
     <div class="_4cadia-nav _4cadia-nav--taller">
       <div class="_4cadia-nav__item _4cadia-nav__item--vertical-center _4cadia-nav__item--responsive">
         <a class="_4cadia-nav__logo-wrapper" href="//4cadia.com">
-          <img alt="4cadia" src="./assets/images/janus/4cadia-logo.svg" class="u-responsive-img" />
+          <img alt="4cadia" src="../assets/images/janus/4cadia-logo.svg" class="u-responsive-img" />
         </a>
       </div>
       <section class="_4cadia-nav__item _4cadia-nav__item--pull-right white-paper u-text-center">
@@ -222,21 +229,21 @@
         <ul class="u-unstyled-list social-links">
           <li class="social-links__item">
             <a href="https://twitter.com/4cadia" target="_blank">
-              <img src="./assets/images/janus/twitter.svg" alt="Twitter" class="u-responsive-img" />
+              <img src="../assets/images/janus/twitter.svg" alt="Twitter" class="u-responsive-img" />
             </a>
           </li>
           <li class="social-links__item">
             <a href="https://medium.com/@4cadia" target="_blank">
-              <img src="./assets/images/janus/medium.svg" alt="Medium" class="u-responsive-img" />
+              <img src="../assets/images/janus/medium.svg" alt="Medium" class="u-responsive-img" />
             </a>
           </li>
           <li class="social-links__item">
             <a href="https://www.linkedin.com/company/4cad1a/" target="_blank">
-              <img src="./assets/images/janus/linkedin.svg" alt="LinkedIn" class="u-responsive-img" />
+              <img src="../assets/images/janus/linkedin.svg" alt="LinkedIn" class="u-responsive-img" />
             </a>
           </li>
           <li class="social-links__item">
-            <a href="https://github.com/4cadia-foundation"><img src="./assets/images/janus/github.svg" alt="Github"
+            <a href="https://github.com/4cadia-foundation"><img src="../assets/images/janus/github.svg" alt="Github"
                 class="u-responsive-img" /></a>
           </li>
         </ul>
