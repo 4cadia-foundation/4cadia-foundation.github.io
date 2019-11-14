@@ -116,6 +116,7 @@ footer {
     max-width:100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   /* Menu Hamburguer */
   .header {
