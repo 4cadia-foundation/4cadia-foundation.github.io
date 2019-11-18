@@ -199,6 +199,16 @@ header nav li button {
     margin-bottom: 5px;
     display: none;
 }
+.adjust-footer-4mp {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.adjust-icon-footer{
+    margin-left: -15px;
+    margin-top: 8px;
+}
+
 
 .r-item.step1 li {color: #071d49;}
 .r-item.step1 .sphere, .r-item.step1 .title {background-color: #071d49;}
