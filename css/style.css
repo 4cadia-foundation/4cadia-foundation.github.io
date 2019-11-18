@@ -219,4 +219,16 @@ footer {
     transform: rotate(90deg);
     bottom: 0;
   }
+
+  footer {
+    height: 150px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .social-icons {
+    padding: 0px;
+  }
 }
