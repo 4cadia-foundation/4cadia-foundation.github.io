@@ -105,6 +105,14 @@
   color: #FF9900;
 }
 
+.button_4mp{
+  background-color: #0042be;
+}
+
+.projects-4mp p {  
+  color: #0042be;
+}
+
 /* Contribute - section style */
 #section-contributing {
   background: linear-gradient(90deg, #5BD0E4 0%, #255FAA 100%);
