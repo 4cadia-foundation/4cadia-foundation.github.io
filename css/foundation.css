@@ -93,10 +93,15 @@
   background-color: #FF9900;
 }
 
+.projects-content {
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+}
+
 .projects-content h1 {
   color: #071D49;
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .projects-4cadia p {  
