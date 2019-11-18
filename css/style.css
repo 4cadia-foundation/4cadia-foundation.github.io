@@ -85,6 +85,7 @@ footer {
   margin: auto 0;
   margin-left: 10px;
   line-height: auto;
+  cursor: pointer;
 }
 
 .social-icons a {
