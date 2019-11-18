@@ -91,6 +91,10 @@ footer {
   display: block;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 /* Responsive */ 
 .container {
   padding: 0px;
