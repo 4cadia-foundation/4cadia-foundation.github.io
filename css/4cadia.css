@@ -102,6 +102,21 @@
     height: auto;
     filter: drop-shadow(5px 5px 5px #071d49c7);
   }
+
+  /* Responsive Newsletter */
+  .validate {
+    width: 90%;
+  }
+
+  .section-newsletter {
+    padding-top: 45px !important; 
+    background: none !important; 
+  }
+
+  .section-newsletter .section-subtitle {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 /* About - section style */
@@ -181,13 +196,12 @@
 }
 
 .section-newsletter input {
-  width: 100%;
+  width: 90%;
   height: 50px;
   font-size: 18px;
   border: 1px solid #C6CACC;
   border-radius: 4px;
   padding: 0 15px;
-  opacity: 0.7;
   margin-top: 0.8em;
 }
 
