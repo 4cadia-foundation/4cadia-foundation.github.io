@@ -3,6 +3,23 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
   background-image: url(../assets/images/Hero_squares.png);
   background-size: 100% 100%;
+  height: 110vh;
+}
+
+.banner-content {
+  margin-top: 15%;
+}
+
+/* Banner - Responsive */
+@media screen and (max-width: 768px) {
+  #section-banner {
+    background-size: cover;
+    height: 180vw;
+  }
+  
+  .banner-content {
+    margin-top: auto;
+  } 
 }
 
 /* Projects - section style */
@@ -76,10 +93,15 @@
   background-color: #FF9900;
 }
 
+.projects-content {
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+}
+
 .projects-content h1 {
   color: #071D49;
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .projects-4cadia p {  

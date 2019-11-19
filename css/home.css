@@ -91,10 +91,13 @@
 
 .card-section--image {
   max-width: 50%;
-  margin: 0 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-image {
   max-height: 65vh;
   width: 100%;
 }
+

@@ -11,46 +11,36 @@
     <meta name="description" content="4MP - A decentralized marketplace">
     <meta name="author" content="4Cadia">
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/changan.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/changan.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
-            <a href="index.html">
-                <img width="167" src="./assets/images/changan/logo-4cadia.svg" alt="4Cadia">
-            </a>
+        <div class="header">
+            <img class="logo" src="../assets/images/logo_white.png" alt="logo 4cadia" />
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-label="Alterna navegação">
-                <img width="16" src="./assets/images/changan/hamburguer.svg" alt="Menu Mobile">
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/foundation.html">Foundation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/factory">Factory</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contatct">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <input id="dropdown" class="hamburguer-check" type="checkbox">
+            <label for="dropdown" class="hamburguer-label">
+                <div class="menu-hamb">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul class="header-itens">
+                <li><a href="../">Home</a></li>
+                <li><a href="../foundation">Foundation</a></li>
+                <li><a href="../factory">Factory</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <section id="purpose">
         <div class="container pt-5 pb-5">
             <div class="d-flex justify-content-center flex-column">
-                <img class="mx-auto d-block img-fluid" src="./assets/images/changan/4mp-logo-branco.png" width="400"
+                <img class="mx-auto d-block img-fluid" src="../assets/images/changan/4mp-logo-branco.png" width="400"
                     alt="4MP Logo">
                 <div class="text-adjust">
                     <h2 id="ancor-purpose" class="text-center mt-4 mb-3 color-white">Connecting Providers and Consumers
@@ -63,7 +53,7 @@
     <section id="problem">
         <div class="container pt-5 pb-5">
             <div class="d-flex justify-content-between align-items-center flex-column flex-xl-row">
-                <img class="d-block img-fluid" width="300" src="./assets/images/changan/teste-solution.svg">
+                <img class="d-block img-fluid" width="300" src="../assets/images/changan/teste-solution.svg">
 
                 <div class="d-flex flex-column mt-3 ml-0 mt-xl-0 ml-xl-5">
                     <h2>What is 4MP?</h2>
@@ -80,7 +70,7 @@
     <section id="mp-solution">
         <div class="container pt-5 pb-5">
             <div class="d-flex justify-content-between align-items-center flex-column flex-xl-row">
-                <img class="d-block img-fluid d-xl-none" src="./assets/images/changan/teste-ideias.svg" width="300">
+                <img class="d-block img-fluid d-xl-none" src="../assets/images/changan/teste-ideias.svg" width="300">
 
                 <div class="d-flex flex-column mt-3 mr-0 mt-xl-0 mr-xl-5">
                     <h2>How it works</h2>
@@ -98,7 +88,7 @@
                     </p>
                 </div>
 
-                <img class="img-fluid d-none d-xl-block" src="./assets/images/changan/teste-ideias.svg" width="300">
+                <img class="img-fluid d-none d-xl-block" src="../assets/images/changan/teste-ideias.svg" width="300">
             </div>
         </div>
     </section>
@@ -111,7 +101,7 @@
             </div>
             <div class="card-deck d-flex justify-content-between mt-3 flex-column flex-lg-row custom-card-deck">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="./assets/images/changan/central.png">
+                    <img class="card-img-top img-fluid" src="../assets/images/changan/central.png">
                     <div class="card-body">
                         <h4 class="card-title">DECENTRALIZATION</h4>
                         <p class="card-text fs-18">
@@ -121,7 +111,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="./assets/images/changan/credibility.png">
+                    <img class="card-img-top img-fluid" src="../assets/images/changan/credibility.png">
                     <div class="card-body">
                         <h4 class="card-title">REPUTATION</h4>
                         <p class="card-text fs-18">
@@ -132,7 +122,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="./assets/images/changan/p2p.png">
+                    <img class="card-img-top img-fluid" src="../assets/images/changan/p2p.png">
                     <div class="card-body">
                         <h4 class="card-title">P2P</h4>
                         <p class="card-text fs-18">
@@ -156,7 +146,7 @@
                 <div class="r-container">
                     <div class="r-item step1">
                         <div class="sphere">
-                            <img src="./assets/images/changan/roadmap-1.png" alt="MVP">
+                            <img src="../assets/images/changan/roadmap-1.png" alt="MVP">
                         </div>
                         <div class="line"></div>
                         <span class="title">MVP</span>
@@ -182,13 +172,13 @@
                         <span class="title">V1</span>
                         <div class="line"></div>
                         <div class="sphere">
-                            <img src="./assets/images/changan/roadmap-2.png" alt="V1">
+                            <img src="../assets/images/changan/roadmap-2.png" alt="V1">
                         </div>
                     </div>
 
                     <div class="r-item step2 d-sm-none">
                         <div class="sphere">
-                            <img src="./assets/images/changan/roadmap-2.png" alt="V1">
+                            <img src="../assets/images/changan/roadmap-2.png" alt="V1">
                         </div>
                         <div class="line"></div>
                         <span class="title">V1</span>
@@ -204,7 +194,7 @@
 
                     <div class="r-item step3">
                         <div class="sphere">
-                            <img src="./assets/images/changan/roadmap-3.png" alt="V1.1">
+                            <img src="../assets/images/changan/roadmap-3.png" alt="V1.1">
                         </div>
                         <div class="line"></div>
                         <span class="title">V1.1</span>
@@ -227,56 +217,75 @@
     <section id="cta">
         <div class="container pt-5 pb-5">
             <div class="d-flex justify-content-center flex-column">
-                <img class="mx-auto d-block img-fluid" src="./assets/images/changan/download-wp.png" width="200"
+                <img class="mx-auto d-block img-fluid" src="../assets/images/changan/download-wp.png" width="200"
                     alt="4MP Logo">
                 <h5 class="text-center mt-4 mb-3 ml-5 mr-5 fs-18">Download full whitepaper the 4MP service run by our
                     team.</h5>
-                <button onclick="window.open('./4cadia_4mp_whitepaper.pdf')" type="button"
+                <button onclick="window.open('../docs/4cadia_4mp_whitepaper.pdf')" type="button"
                     class="btn btn-primary mx-auto">Whitepaper</button>
             </div>
         </div>
     </section>
 
-    <footer class="pt-5 pb-5">
-        <div class="container">
-            <div class="d-flex justify-content-between footer-container">
-                <a href="#"><img width="167" src="./assets/images/changan/logo-4cadia.svg" alt="4Cadia"></a>
+    <!-- Footer -->
+    <footer>
 
-                <div class="socialbar">
-                    <!-- <a href="#"><img width="40" src="./assets/images/changan/social-icons/twitter.svg" alt="Twitter 4Cadia"></a>
-                        <a href="#"><img width="40" src="./assets/images/changan/social-icons/medium.svg" alt="Medium 4Cadia"></a> -->
-                    <a href="https://github.com/4cadia-foundation"><img width="40"
-                            src="./assets/images/changan/social-icons/github.svg" alt="Github 4Cadia"></a>
-                    <!-- <a href="#"><img width="40" src="./assets/images/changan/social-icons/instagram.svg" alt="Instagram 4Cadia"></a>
-                        <a href="#"><img width="40" src="./assets/images/changan/social-icons/facebook.svg" alt="Facebook 4Cadia"></a> -->
-                </div>
-            </div>
-        </div>
+        <img class="logo" src="../assets/images/logo_white.png" alt="4cadia logo" />
+
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.linkedin.com/company/4cad1a/" target="_blank">
+                    <img src="../assets/icons/linkedin.svg" alt="linkedin icon" />
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/4cadia-foundation" target="_blank">
+                    <img src="../assets/icons/github.svg" alt="github icon" />
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/4cadia?lang=en" target="_blank">
+                    <img src="../assets/icons/twitter.svg" alt="twitter icon" />
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@4cadia" target="_blank">
+                    <img src="../assets/icons/medium.svg" alt="medium icon" />
+                </a>
+            </li>
+        </ul>
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {
+                    hjid: 1558478,
+                    hjsv: 6
+                };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-152066200-1');
+        </script>
     </footer>
 
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
-<footer>
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 1558478, hjsv: 6 };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script'); r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-152066200-1');
-    </script>
-</footer>
 
 </html>
