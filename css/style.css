@@ -85,10 +85,15 @@ footer {
   margin: auto 0;
   margin-left: 10px;
   line-height: auto;
+  cursor: pointer;
 }
 
 .social-icons a {
   display: block;
+}
+
+.disabled {
+  pointer-events: none;
 }
 
 /* Responsive */ 
@@ -116,6 +121,7 @@ footer {
     max-width:100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   /* Menu Hamburguer */
   .header {
@@ -218,5 +224,18 @@ footer {
   input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0;
+  }
+
+  footer {
+    height: 150px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .social-icons {
+    padding: 0px;
   }
 }

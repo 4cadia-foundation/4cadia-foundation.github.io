@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/4cadia.css">
     <link rel="stylesheet" href="../css/factory.css">
+    <link rel="stylesheet" href="../css/">
     <script type="text/javascript" src="../js/newsletter.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
@@ -303,9 +304,15 @@
 
     <!-- Footer -->
     <footer>
+
         <img class="logo" src="../assets/images/logo_white.png" alt="4cadia logo" />
 
         <ul class="social-icons">
+            <li>
+                <a href="https://www.linkedin.com/company/4cad1a/" target="_blank">
+                    <img src="../assets/icons/linkedin.svg" alt="linkedin icon" />
+                </a>
+            </li>
             <li>
                 <a href="https://github.com/4cadia-foundation" target="_blank">
                     <img src="../assets/icons/github.svg" alt="github icon" />
@@ -322,29 +329,34 @@
                 </a>
             </li>
         </ul>
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {
+                    hjid: 1558478,
+                    hjsv: 6
+                };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-152066200-1');
+        </script>
     </footer>
-
-</body>
-<footer>
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 1558478, hjsv: 6 };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script'); r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152066200-1"></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-152066200-1');
-    </script>
-</footer>
 
 </html>

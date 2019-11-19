@@ -3,6 +3,23 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1a4da0+0,00063c+73,071d49+100 */
   background-image: url(../assets/images/Hero_squares.png);
   background-size: 100% 100%;
+  height: 110vh;
+}
+
+.banner-content {
+  margin-top: 15%;
+}
+
+/* Banner - Responsive */
+@media screen and (max-width: 768px) {
+  #section-banner {
+    background-size: cover;
+    height: 180vw;
+  }
+
+  .banner-content {
+    margin-top: auto;
+  }
 }
 
 /* Projects - section style */
@@ -76,13 +93,18 @@
   background-color: #FF9900;
 }
 
+.projects-content {
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+}
+
 .projects-content h1 {
   color: #071D49;
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 50px;
 }
 
-.projects-4cadia p {  
+.projects-4cadia p {
   color: #071D49;
 }
 
@@ -90,19 +112,28 @@
   width: 80%;
 }
 
-.projects-janus p {  
+.projects-janus p {
   color: #442AB0;
 }
 
 .projects-janus .projects-logo img:first-child {
   width: 20%;
 }
+
 .projects-janus .projects-logo img:last-child {
   width: 70%;
 }
 
-.projects-holon p {  
+.projects-holon p {
   color: #FF9900;
+}
+
+.button_4mp{
+  background-color: #0042be;
+}
+
+.projects-4mp p {  
+  color: #0042be;
 }
 
 /* Contribute - section style */
@@ -184,4 +215,30 @@
 .contributing-list .card-action.disable {
   cursor: not-allowed;
   opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+
+  .contributing-list {
+    flex-direction: column;
+  }
+
+  .container_projects {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .container_projects .project-text {
+    margin: 30px auto;
+    width: 70%;
+  }
+
+  .container_projects .projects-logo {
+    width: 100%;
+  }
+
+  .container_projects .project-text p {
+    line-height: 30px;
+    font-size: 1.7em;
+  }
 }
