@@ -251,3 +251,15 @@
   letter-spacing: 0.1px;
   max-width: 250px;
 }
+
+@media (max-width: 768px)
+{
+ .development-list {
+   display: block;
+  }
+
+  .development-list li {
+    max-width: 600px;
+    padding: 17px 20px;
+  }
+}
