@@ -109,8 +109,8 @@
   }
 
   .section-newsletter {
-    padding-top: 45px !important; 
-    background: none !important; 
+    padding-top: 45px !important;
+    background: none !important;
   }
 
   .section-newsletter .section-subtitle {
@@ -221,4 +221,31 @@
 .section-newsletter .card-section--button:hover {
   background: #0047BB;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+
+  .symbol-c {
+    width: 94px;
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    top: 5px;
+  }
+
+  .symbol-a {
+    width: 94px;
+    right: -20px;
+  }
+
+  .about-content p {
+    font-size: 1.25em;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+  }
+
+  #section-projects {
+    margin: 0px;
+  }
 }
