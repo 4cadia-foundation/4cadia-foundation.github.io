@@ -16,10 +16,10 @@
     background-size: cover;
     height: 180vw;
   }
-  
+
   .banner-content {
     margin-top: auto;
-  } 
+  }
 }
 
 /* Projects - section style */
@@ -104,7 +104,7 @@
   padding-top: 50px;
 }
 
-.projects-4cadia p {  
+.projects-4cadia p {
   color: #071D49;
 }
 
@@ -112,18 +112,19 @@
   width: 80%;
 }
 
-.projects-janus p {  
+.projects-janus p {
   color: #442AB0;
 }
 
 .projects-janus .projects-logo img:first-child {
   width: 20%;
 }
+
 .projects-janus .projects-logo img:last-child {
   width: 70%;
 }
 
-.projects-holon p {  
+.projects-holon p {
   color: #FF9900;
 }
 
@@ -214,4 +215,30 @@
 .contributing-list .card-action.disable {
   cursor: not-allowed;
   opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+
+  .contributing-list {
+    flex-direction: column;
+  }
+
+  .container_projects {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .container_projects .project-text {
+    margin: 30px auto;
+    width: 70%;
+  }
+
+  .container_projects .projects-logo {
+    width: 100%;
+  }
+
+  .container_projects .project-text p {
+    line-height: 30px;
+    font-size: 1.7em;
+  }
 }
