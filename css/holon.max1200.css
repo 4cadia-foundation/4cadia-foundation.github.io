@@ -1,8 +1,20 @@
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1200px) {
 
-    #subtitle {
-        font-size: 30pt;
+    h1 {
+        font-size: 2.4em;
+    }
+    
+    h2 {
+        font-size: 1.56em;
+    }
+    
+    .subtitle {
+        font-size: 1.25em;
+    }
+
+    #header-subtitle {
+        font-size: 2.45em;
     }
 
     .holon-logo img {
@@ -12,12 +24,13 @@
     }
 
     .holon-logo p {
-        font-size: 20pt;
+        width: 40%;
+        font-size: 1.25em;
         padding-top: 3%;
     }
 
     .holon-logo {
-        font-size: 25pt;
+        font-size: 1.25em;
     }
 
     .digital {
@@ -110,12 +123,12 @@
     }
 
     .separation-text {
-        font-size: 10pt;
+        font-size: 0.8em;
     }
 
-    .howworks-box h2 {
-        font-size: 15pt;
-    }
+    /* .howworks-box h2 {
+        font-size: 1.95em;
+    } */
 
     .container-invite-dev {
         display: flex;
@@ -130,10 +143,6 @@
 
     .button-newsletter {
         padding: 8px 12px;
-    }
-
-    .paragraph-orange {
-        color: #F0AD4E;
     }
 
     .footer-content {

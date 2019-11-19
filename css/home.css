@@ -101,3 +101,43 @@
   width: 100%;
 }
 
+@media (max-width: 768px)
+{
+ .card-section {
+   flex-direction: column;
+  }
+
+  .card-section--text {
+    width: 90%;
+    padding: 0px 0px 66px;
+  }
+
+  .card-section.info p {
+    text-align: center;
+    font-size: 28px;
+    
+  }
+
+  .card-section.info {
+    flex-direction: column-reverse;
+  }
+
+  #section-target-factory {
+    flex-direction: column-reverse;
+
+  }
+
+  .card-section--image {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .card-image {
+    max-height: 85vh;
+    width: 90%;
+    padding: 0px 0px 40px;
+  }
+
+
+}
+

@@ -33,6 +33,10 @@
   padding: 50px 0;
 }
 
+.mobile-images {
+  display: none;
+}
+
 .process-content h2 {
   text-align: center;
   color: white;
@@ -115,6 +119,19 @@
   margin: 25px auto;
   max-width: 350px;
   padding: 25px 20px;
+}
+
+.development-list li:hover {
+  background: #071D49;
+  transition: linear 0.3s;
+}
+
+.development-list li:hover img{
+  filter: contrast(0) brightness(100);
+}
+
+.development-list li:hover h4 {
+  color: #FFF;
 }
 
 .development-list .card-content {
@@ -267,4 +284,40 @@
   line-height: 31px;
   letter-spacing: 0.1px;
   max-width: 250px;
+}
+
+
+@media (max-width: 768px)
+{
+ .development-list {
+   display: block;
+  }
+
+  .development-list li {
+    max-width: 600px;
+    padding: 17px 20px;
+  }
+
+  .consulting-list {
+    display: block;
+  }
+
+  .team-list .list-row {
+    display: contents;
+
+  }
+
+  .team-list {
+    max-width: 60%;
+  }
+
+  .mobile-images {
+    display: block;
+    margin: auto;
+  }
+
+  .process-images {
+    display: none;
+  }
+
 }

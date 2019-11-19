@@ -1,12 +1,24 @@
 @media (max-width: 768px) {
 
+    h1 {
+        font-size: 1.9em;
+    }
+    
+    h2 {
+        font-size: 1.25em;
+    }
+    
+    .subtitle {
+        font-size: 1em;
+    }
+
     .background {
         padding: 3rem 2rem calc(5rem + 5vw);
         flex-direction: column;
     }
 
-    #subtitle {
-        font-size: 20pt;
+    #header-subtitle {
+        font-size: 1.5em;
     }
 
     .holon-logo {
@@ -29,9 +41,9 @@
     }
 
     .holon-logo p {
-        font-size: 14pt;
+        font-size: 1.25em;
         padding-top: 3%;
-        
+        width: 70%;
     }
 
     .container-holon {
@@ -39,8 +51,8 @@
     }
     
     .container-holon p {
-        font-size: 12px;
         align-items: center;
+        font-size: 1em;
     }
 
     .how-holon {
@@ -53,7 +65,7 @@
     }
 
     .how-holon p {
-        font-size: 12px;
+        font-size: 1em;
     }
 
     .how-holon img {
@@ -83,10 +95,6 @@
         height: 374px;
     }
 
-    .title {
-        font-size: 13pt;
-    }
-
     .actors-boxes {
         display: flex;
         flex-direction: column;
@@ -109,9 +117,9 @@
         margin-top: 5%;
     }
 
-    .actors-box p {
+    /* .actors-box p {
         font-size: 12px;
-    }
+    } */
 
     .container-howworks {
         width: 100%;
@@ -135,12 +143,8 @@
         display: none;
     }
 
-    .howworks-box h2 {
-        font-size: 11pt;
-    }
-
     .separation-text {
-        font-size: 9pt;
+        font-size: 	0.8em;
         margin-top: 2%;
     }
 
@@ -160,11 +164,7 @@
     }
 
     .paragraph {
-        font-size: 10pt;
-    }
-
-    .paragraph-orange {
-        color: #F0AD4E;
+        font-size: 0.8em;
     }
 
     .button-newsletter {
@@ -175,7 +175,6 @@
         display: flex;
         align-items: center;
         margin-top: 10%;
-        font-size: 9pt;
     }
 
     .footer-logo {
@@ -211,6 +210,7 @@
         display: initial;
         height: 100vh;
     }
+
     .roadmap {
         margin-top: 0;
         margin-left: 0;
@@ -218,11 +218,5 @@
         align-items: center;
         justify-content: center;
     }
-    
-
-
-
-
-
 
 }
