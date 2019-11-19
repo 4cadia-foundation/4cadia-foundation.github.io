@@ -16,6 +16,10 @@
   padding: 50px 0;
 }
 
+.mobile-images {
+  display: none;
+}
+
 .process-content h2 {
   text-align: center;
   color: white;
@@ -252,6 +256,7 @@
   max-width: 250px;
 }
 
+
 @media (max-width: 768px)
 {
  .development-list {
@@ -262,4 +267,27 @@
     max-width: 600px;
     padding: 17px 20px;
   }
+
+  .consulting-list {
+    display: block;
+  }
+
+  .team-list .list-row {
+    display: contents;
+
+  }
+
+  .team-list {
+    max-width: 60%;
+  }
+
+  .mobile-images {
+    display: block;
+    margin: auto;
+  }
+
+  .process-images {
+    display: none;
+  }
+
 }
