@@ -214,4 +214,23 @@
   .contributing-list {
     flex-direction: column;
   }
+
+  .container_projects {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .container_projects .project-text {
+    margin: 30px auto;
+    width: 70%;
+  }
+
+  .container_projects .projects-logo {
+    width: 100%;
+  }
+
+  .container_projects .project-text p {
+    line-height: 30px;
+    font-size: 1.7em;
+  }
 }
