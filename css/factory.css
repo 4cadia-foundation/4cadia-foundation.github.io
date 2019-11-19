@@ -117,6 +117,19 @@
   padding: 25px 20px;
 }
 
+.development-list li:hover {
+  background: #071D49;
+  transition: linear 0.3s;
+}
+
+.development-list li:hover img{
+  filter: contrast(0) brightness(100);
+}
+
+.development-list li:hover h4 {
+  color: #FFF;
+}
+
 .development-list .card-content {
   margin: auto 0;
   display: flex;
