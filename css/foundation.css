@@ -13,8 +13,7 @@
 /* Banner - Responsive */
 @media screen and (max-width: 768px) {
   #section-banner {
-    background-size: cover;
-    height: 180vw;
+    height: 100vw;
   }
 
   .banner-content {
