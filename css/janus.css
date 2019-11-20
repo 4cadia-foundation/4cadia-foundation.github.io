@@ -69,6 +69,17 @@ p + p {
   margin: auto;
 }
 
+.roadmap-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.roadmap-mobile {
+  display: none;
+}
+
 .u-vertical-center {
   display: flex;
   flex-direction: column;
@@ -467,6 +478,20 @@ p + p {
   .social-links__item {
     margin-right: 0.75rem;
     max-width: 2rem;
+  }
+
+  .roadmap-image {
+    display: none;
+  }
+
+  .roadmap-mobile {
+    display: block;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
   }
 }
 
