@@ -61,7 +61,7 @@
 }
 
 .process-text:last-child li {
-  margin: 0 5%;
+  margin: 0 -1% 0px 14%;
 }
 
 .process-text li > h4 {
@@ -79,6 +79,7 @@
   text-align: center;
   letter-spacing: 0.44px;
   color: #FFFFFF;
+  width: inherit;
 }
 
 
@@ -348,4 +349,4 @@
     margin:15px;
   }
 
-}
+} 
