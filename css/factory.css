@@ -294,7 +294,7 @@
   }
 
   .development-list li {
-    max-width: 600px;
+    max-width: 600%;
     padding: 17px 20px;
   }
 
@@ -302,22 +302,32 @@
     display: block;
   }
 
+  .team-list {
+    max-width: 60%;
+  }
+
   .team-list .list-row {
     display: contents;
 
   }
 
-  .team-list {
-    max-width: 60%;
-  }
-
   .mobile-images {
     display: block;
-    margin: auto;
+    /* margin: auto; */
+    padding: 0 7%;
+  
   }
 
   .process-images {
     display: none;
   }
 
+  .process-text {
+    justify-content: center;
+  }
+
+  .process-text:last-child {
+    justify-content: center;
+    padding: 0 50%;
+  }
 }
