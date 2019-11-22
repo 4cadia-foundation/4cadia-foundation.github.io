@@ -248,4 +248,9 @@
   #section-projects {
     margin: 0px;
   }
+
+  .section-newsletter .card-section--button {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
