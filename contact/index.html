@@ -50,50 +50,49 @@
             </div>
         </section>
         
-        <!-- Contact Banner -->
-        <section class="card-section info">
-            <div class="card-section--text">
-                <p class="card-section--subtitle">Let’s connect </p>
-                <p class="card-section--subtitle">We build relationships, more then product  </p>
+        <!-- Contact Banner Text -->
+        <section class="section-contact-banner">
+            <div class="banner-text">
+                <h3 class="text--title">Let’s connect </h3>
+                <p class="text--subtitle">We build relationships, more then product  </p>
             </div>
             
-            <div class="card-section--image">
-                <img class="card-image" src="./assets/images/Symbol_Logo.png" alt="icone 4cadia" />
+            <div class="banner-image">
+                <img src="../assets/images/consultation.png" alt="consultation" />
             </div>
         </section>
 
-        <!-- Contact Info -->
-        <section id="section-contact-info">
-            <div class="info-content">
-                <h3>Contact Information</h3>
-                <div class="info-row">
-                    <img src="" alt="4cadia factory">
-                    <p>
-                        <span>E-mail:</span>
-                        <span>factory@4cadia.com</span>
-                    </p>
-                    <p>
-                        <span>Address:</span>
-                        <span>Alameda Min. Rocha Azevedo, 38, Conj 41 - Cerqueira César, São Paulo - SP, Brasil, 01410-001</span>
-                    </p>
-                </div>
-                <div class="info-row">
-                    <img src="" alt="4cadia Foundation">
-                    <p>
-                        <span>E-mail:</span>
-                        <span>foundation@4cadia.com</span>
-                    </p>
-                </div>                
-            </div>
-            
-        </section>
         
         <!-- Contact -->
         <section id="section-contact">
-            <div class="contact-content">
+
+            <!-- Contact Info -->
+            <section id="section-contact-info" class="contact contact--info">
+                <div class="info-content">
+                    <!-- <h3>Contact Information</h3> -->
+                    <div class="info-row">
+                        <img src="../assets/images/logo-factory-dark.svg" alt="4cadia factory">
+                        <p class="info-text">
+                            <span class="info--label label--email">E-mail:</span> factory@4cadia.com
+                        </p>
+                        <p class="info-text">
+                            <span class="info--label label--location">Address:</span> Alameda Min. Rocha Azevedo, 38, Conj 41 - Cerqueira César, São Paulo - SP, Brasil, 01410-001
+                        </p>
+                    </div>
+                    <div class="info-row">
+                        <img src="../assets/images/logo-found-dark.svg" alt="4cadia Foundation">
+                        <p class="info-text">
+                            <span class="info--label label--email">E-mail:</span>foundation@4cadia.com
+                        </p>
+                    </div>                
+                </div>
+            </section>
+
+            <!-- Contact Form -->
+            <section id="section-contact-form" class="contact contact--form">
                 <h3>Send us a message</h3>
                 
-                <div class="contact-form">
+                <div class="form-content">
                     <form method="post">
                         <div class="form-row">
                             <div class="form-field">
@@ -104,8 +103,6 @@
                                 <label for="email">Your Email</label>
                                 <input type="email" name="email" class="field">
                             </div>
-                        </div>
-                        <div class="form-row">
                             <div class="form-field">
                                 <label for="company">Company Name</label>
                                 <input type="text" name="company" class="field">
@@ -114,17 +111,17 @@
                                 <label for="number">Phone Number</label>
                                 <input type="tel" name="number" class="field">
                             </div>
-                        </div>
-                        <div class="form-row">
                             <div class="form-field">
-                                <textarea class="field" name="" id="" rows="10" placeholder="Say what you have in mind..."></textarea>
+                                <label for="message">Message</label>
+                                <textarea class="field" name="message" id="" rows="10" placeholder="Say what you have in mind..."></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="button-submit">Submit</button>
+                        <div class="form-row">
+                            <button type="submit" class="button-submit">Submit</button>
+                        </div>
                     </form>
                 </div>
-            </div>
-            
+            </section>
         </section>
     </main>
     
