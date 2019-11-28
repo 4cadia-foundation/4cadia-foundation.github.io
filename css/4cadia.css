@@ -11,7 +11,7 @@
   width: 940px;
   display: block;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-white);
   margin: auto;
 }
 
@@ -63,7 +63,7 @@
     padding: 0;
     width: 80%;
     height: auto;
-    filter: drop-shadow(5px 5px 5px #071d49c7);
+    filter: drop-shadow(5px 5px 5px var(--color-blue-dark)c7);
   }
 
   /* Responsive Newsletter */
@@ -99,7 +99,7 @@
 }
 
 .about-content h1 {
-  color: #071D49;
+  color: var(--color-blue-dark);
   padding: 1em;
 }
 
@@ -134,17 +134,17 @@
 }
 
 .section-newsletter .section-title {
-  color: #071D49;
+  color: var(--color-blue-dark);
   font-size: 2.750em;
 }
 
 .section-newsletter .section-subtitle {
-  color: #071D49;
+  color: var(--color-blue-dark);
   font-size: 1.750em;
 }
 
 .section-newsletter .section-subtitle span {
-  color: #0047BB;
+  color: var(--color-blue-lazuli);
 }
 
 .section-subscribe {
@@ -162,7 +162,7 @@
   width: 90%;
   height: 50px;
   font-size: 18px;
-  border: 1px solid #C6CACC;
+  border: 1px solid var(--color-gray-40);
   border-radius: 4px;
   padding: 0 15px;
   margin-top: 0.8em;
@@ -174,15 +174,15 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: var(--color-white);
   text-transform: uppercase;
   text-align: center;
-  background: #6AD1E3;
+  background: var(--color-blue-light);
   margin: 2.5em;
 }
 
 .section-newsletter .card-section--button:hover {
-  background: #0047BB;
+  background: var(--color-blue-lazuli);
   transition: 0.3s;
 }
 

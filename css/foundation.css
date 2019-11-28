@@ -34,7 +34,7 @@
   width: auto;
   margin: 0px auto;
   padding: 50px 20px 50px 0;
-  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, var(--color-white) 95.66%);
   justify-content: space-between;
 }
 
@@ -51,7 +51,7 @@
 .container_projects .project-text {
   margin: auto 4px;
   font-size: 1em;
-  color: #fff;
+  color: var(--color-white);
   width: 50%;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .button_4cadia {
-  background: #009CDE;
+  background: var(--color-blue-primary);
 }
 
 .button_4cadia:hover,
@@ -85,26 +85,26 @@
 }
 
 .button_janus {
-  background-color: #742D75;
+  background-color: var(--color-janus-primary);
 }
 
 .button_holon {
-  background-color: #FF9900;
+  background-color: var(--color-holon-primary);
 }
 
 .projects-content {
-  background: linear-gradient(284.11deg, #EBEBEB 5.88%, #FFFFFF 95.66%);
+  background: linear-gradient(284.11deg, #EBEBEB 5.88%, var(--color-white) 95.66%);
 }
 
 .projects-content h1 {
-  color: #071D49;
+  color: var(--color-blue-dark);
   text-align: center;
   margin-bottom: 50px;
   padding-top: 50px;
 }
 
 .projects-4cadia p {
-  color: #071D49;
+  color: var(--color-blue-dark);
 }
 
 .projects-4cadia .projects-logo img {
@@ -112,7 +112,7 @@
 }
 
 .projects-janus p {
-  color: #442AB0;
+  color: var(--color-janus-primary);
 }
 
 .projects-janus .projects-logo img:first-child {
@@ -124,20 +124,20 @@
 }
 
 .projects-holon p {
-  color: #FF9900;
+  color: var(--color-holon-primary);
 }
 
 .button_4mp{
-  background-color: #0042be;
+  background-color: var(--color-blue-lazuli);
 }
 
 .projects-4mp p {  
-  color: #0042be;
+  color: var(--color-blue-lazuli);
 }
 
 /* Contribute - section style */
 #section-contributing {
-  background: linear-gradient(90deg, #5BD0E4 0%, #255FAA 100%);
+  background: linear-gradient(90deg, var(--color-blue-light) 0%, var(--color-blue-primary) 100%);
 }
 
 .contributing-content {
@@ -146,7 +146,7 @@
 
 .contributing-content h2 {
   text-align: center;
-  color: #FFFFFF;
+  color: var(--color-white);
   font-weight: 600;
   font-size: 2.441em;
   line-height: 60px;
@@ -163,8 +163,8 @@
 
 .contributing-list .card {
   display: flex;
-  background: #FFFFFF;
-  border: 1px solid #C6CACC;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-20);
   box-sizing: border-box;
   box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
   border-radius: 10px;
@@ -191,7 +191,7 @@
   font-size: 1.953em;
   line-height: 31px;
   letter-spacing: 0.1px;
-  color: #071D49;
+  color: var(--color-blue-dark);
   display: block;
   margin: 30px 0 10px;
   text-align: center;
@@ -207,7 +207,7 @@
   width: 150px;
   margin: auto;
   text-align: center;
-  background: #3F80BA;
+  background: var(--color-blue-primary);
   cursor: pointer;
 }
 

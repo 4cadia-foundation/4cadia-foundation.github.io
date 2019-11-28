@@ -1,3 +1,37 @@
+/* Variables */
+:root {
+  --color-blue-primary: #009CDE;
+  --color-blue-dark: #071D49;
+  --color-blue-lazuli: #0047BB;
+  --color-blue-light: #6AD1E3;
+  
+  --color-red: #D61A11;
+  --color-yellow:#FFC107;
+  --color-green:#2EAA36;
+
+  --color-janus-primary: #742D75;
+  --color-janus-secondary: #A740A8;
+  --color-janus-dark: #320F32;
+  --color-janus-light: #B67CB7;
+
+  --color-holon-primary:#FF9900;
+  --color-holon-secondary:#FFBF43;
+  --color-holon-dark:#CE9037;
+  --color-holon-light:#F0AD4E;
+  
+  --color-black: #101112;
+  --color-white: #FFF;
+  --color-gray-20: #F1F3F4;
+  --color-gray-40: #C6CACC;
+  --color-gray-60: #919699;
+  --color-gray-80: #5E6366;
+
+  --media-phone: 768px;
+  --media-tablet: 992px;
+  --media-desktop: 1200px;
+}
+
+/* Elements */
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -18,10 +52,12 @@ li {
   flex-wrap: wrap;
 }
 
+/* Typography */
+
 /* Header - section style */
 header {
   width: 100%;
-  background: #071D49;
+  background: var(--color-blue-dark);
 }
 
 .header {
@@ -38,13 +74,13 @@ header {
 }
 
 .header-itens a {
-  color: #FFFFFF;
+  color: var(--color-white);
   font-size: 16px;
   margin: auto 10px;
 }
 
 .header-itens a:hover {
-  color: #009CDE;
+  color: var(--color-blue-primary);
   transition: 0.3s;
 }
 
@@ -59,7 +95,7 @@ footer {
   justify-content: space-between;
   width: 100%;
   height: 15vh;
-  background: #071D49;
+  background: var(--color-blue-dark);
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -131,7 +167,7 @@ footer {
     user-select: none;          /* Likely future */
     position: fixed;
     width: 100vw;
-    background: #071d49;
+    background: var(--color-blue-dark);
     z-index: 5;
     box-sizing: border-box;
   }
@@ -139,7 +175,7 @@ footer {
   .header-itens {
     display: none;
     position: fixed;
-    background: #071D49;
+    background: var(--color-blue-dark);
     height: 100vh;
     right: 0;
     top: 50px;
@@ -187,7 +223,7 @@ footer {
     width: 100%;
     height: 2px;
     border-radius: 2px;
-    background:#FFF;
+    background:var(--color-white);
     position:relative;
     left: 0;
     top: 0;
@@ -199,7 +235,7 @@ footer {
     width:100%;
     height:100%;
     content:'';
-    background:#FFF;
+    background:var(--color-white);
     position:absolute;
     transition: .5s ease-in-out;
   }

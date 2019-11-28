@@ -39,7 +39,7 @@
 }
 
 .card-section--text {
-  color: #071D49;
+  color: var(--color-blue-dark);
   width: 50%;
   margin: auto;
 }
@@ -53,11 +53,11 @@
 }
 
 .title-foundation {
-  color: #0047BB;
+  color: var(--color-blue-lazuli);
 }
 
 .title-factory {
-  color: #071D49;
+  color: var(--color-blue-dark);
 }
 
 .card-section--button {
@@ -66,26 +66,26 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: var(--color-white);
   text-transform: uppercase;
   text-align: center;
 }
 
 .btn-factory {
-  background: #071D49;
+  background: var(--color-blue-dark);
 }
 
 .btn-factory:hover {
-  background: #0047BB;
+  background: var(--color-blue-lazuli);
   transition: 0.3s;
 }
 
 .btn-foundation {
-  background: #0047BB;
+  background: var(--color-blue-lazuli);
 }
 
 .btn-foundation:hover {
-  background: #071D49;
+  background: var(--color-blue-dark);
   transition: 0.3s;
 }
 

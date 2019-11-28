@@ -96,28 +96,42 @@
                     <form method="post">
                         <div class="form-row">
                             <div class="form-field">
-                                <label for="full_name">Your Name</label>
-                                <input type="text" name="full_name" class="field">
+                                <label class="label" for="full_name">Your Name *</label>
+                                <input type="text" name="full_name" class="field" required="required">
                             </div>
                             <div class="form-field">
-                                <label for="email">Your Email</label>
-                                <input type="email" name="email" class="field">
+                                <label class="label" for="email">Your Email *</label>
+                                <input type="email" name="email" class="field" required="required" placeholder="eg.: john@example.com">
                             </div>
                             <div class="form-field">
-                                <label for="company">Company Name</label>
+                                <label class="label" for="company">Company</label>
                                 <input type="text" name="company" class="field">
                             </div>
                             <div class="form-field">
-                                <label for="number">Phone Number</label>
-                                <input type="tel" name="number" class="field">
+                                <label class="label" for="number">Phone</label>
+                                <input type="tel" name="number" class="field" placeholder="eg.:+55 11 0000-0000">
                             </div>
                             <div class="form-field">
-                                <label for="message">Message</label>
-                                <textarea class="field" name="message" id="" rows="10" placeholder="Say what you have in mind..."></textarea>
+                                <p class=label>Send message to: *</p>
+                                <div class="field-wrapper">
+                                    <input type="radio" name="radio" id="factory" class="input-radio" checked="checked">
+                                    <label class="field field--button" for="factory">
+                                        <p class="label">Factory</p>
+                                    </label>
+                                    
+                                    <input type="radio" name="radio" class="input-radio" id="foundation">
+                                    <label class="field field--button" for="foundation">
+                                        <p class="label">Foundation</p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <label class="label" for="message">Message *</label>
+                                <textarea class="field" name="message" id="" rows="10" placeholder="Say what you have in mind..." required="required"></textarea>
                             </div>
                         </div>
                         <div class="form-row">
-                            <button type="submit" class="button-submit">Submit</button>
+                            <button type="submit" class="button-submit">Send Message</button>
                         </div>
                     </form>
                 </div>

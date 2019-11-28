@@ -70,7 +70,7 @@
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.25px;
-  color: #6AD1E3;
+  color: var(--color-blue-light);
 }
 
 .process-text li > p {
@@ -78,7 +78,7 @@
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.44px;
-  color: #FFFFFF;
+  color: var(--color-white);
 }
 
 
@@ -93,7 +93,7 @@
 
 .development-content h2 {
   text-align: center;
-  color: #071D49;
+  color: var(--color-blue-dark);
   font-weight: 600;
   font-size: 2.441em;
   line-height: 60px;
@@ -110,8 +110,8 @@
 
 .development-list li {
   display: flex;
-  background: #FFFFFF;
-  border: 1px solid #C6CACC;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-40);
   box-sizing: border-box;
   box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
   border-radius: 10px;
@@ -122,7 +122,7 @@
 }
 
 .development-list li:hover {
-  background: #071D49;
+  background: var(--color-blue-dark);
   transition: linear 0.3s;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .development-list li:hover h4 {
-  color: #FFF;
+  color: var(--color-white);
 }
 
 .development-list .card-content {
@@ -152,7 +152,7 @@
   font-size: 1.25em;
   line-height: 31px;
   letter-spacing: 0.1px;
-  color: #071D49;
+  color: var(--color-blue-dark);
   display: block;
   margin: auto;
 }
@@ -164,7 +164,7 @@
 
 .consulting-content h2 {
   text-align: center;
-  color: #071D49;
+  color: var(--color-blue-dark);
   font-weight: 600;
   font-size: 2.441em;
   line-height: 60px;
@@ -181,8 +181,8 @@
 
 .consulting-list .card {
   display: flex;
-  background: #FFFFFF;
-  border: 1px solid #C6CACC;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-40);
   box-sizing: border-box;
   box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.2);
   border-radius: 10px;
@@ -209,7 +209,7 @@
   font-size: 1.953em;
   line-height: 31px;
   letter-spacing: 0.1px;
-  color: #071D49;
+  color: var(--color-blue-dark);
   display: block;
   margin: 30px 0 10px;
   text-align: center;
@@ -224,7 +224,7 @@
   font-size: 1.25em;
   line-height: 31px;
   letter-spacing: 0.1px;
-  color: #3E4345;
+  color: var(--color-gray-60);
   text-align: center;
 }
 
@@ -235,7 +235,7 @@
 
 .team-content h2 {
   text-align: center;
-  color: #071D49;
+  color: var(--color-blue-dark);
   font-weight: 600;
   font-size: 2.441em;
   line-height: 60px;

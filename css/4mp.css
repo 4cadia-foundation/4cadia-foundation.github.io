@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-    color: #071D49;
+    color: var(--color-blue-dark);
 }
 
 .mb-5 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 .color-white {
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .fs-18 {
@@ -31,7 +31,7 @@ h2 {
 }
 
 footer {
-    background: #071D49;
+    background: var(--color-blue-dark);
 }
 
 .header-itens {
@@ -39,18 +39,18 @@ footer {
 }
 
 header nav {
-    background: #071D49;
+    background: var(--color-blue-dark);
     box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
 }
 
 header nav li a {
-    color: #C6CACC !important;
+    color: var(--color-gray-40) !important;
     font-size: 18px;
 }
 
 header nav li:hover a {
     cursor: pointer;
-    color: #6AD1E3 !important;
+    color: var(--color-blue-light) !important;
     transition: .2s all ease-in-out;
 }
 
@@ -69,7 +69,7 @@ header nav li button {
     background-size: cover;
     background-position: center 100%;
     background-repeat: no-repeat;
-    color: #FFFFFF;    
+    color: var(--color-white);    
     padding: 100px;
 }
 
@@ -79,7 +79,7 @@ header nav li button {
 
 .custom-card-deck .card-title {
     font-weight: bold;
-    color: #071D49;
+    color: var(--color-blue-dark);
     text-align: center;
 }
 
@@ -101,8 +101,8 @@ header nav li button {
 }
 
 .btn-primary {
-    background: #0047BB;
-    border-color: #0047BB;
+    background: var(--color-blue-lazuli);
+    border-color: var(--color-blue-lazuli);
     box-shadow: 0px 4px 8px rgba(7, 29, 73, 0.24);
     border-radius: 4px;
     text-align: center;
@@ -175,7 +175,7 @@ header nav li button {
 .r-item .title {
     text-align: center;
     background-color: #079ad7;
-    color: #fff;
+    color: var(--color-white);
     height: 40px;
     line-height: 40px;
     font-weight: 600;
@@ -195,7 +195,7 @@ header nav li button {
 }
 
 .r-item li.title {
-    color: #ffffff !important;
+    color: var(--color-white) !important;
     margin-bottom: 5px;
     display: none;
 }
@@ -210,9 +210,9 @@ header nav li button {
 }
 
 
-.r-item.step1 li {color: #071d49;}
-.r-item.step1 .sphere, .r-item.step1 .title {background-color: #071d49;}
-.r-item.step1 .line {border-color: #071d49;}
+.r-item.step1 li {color: var(--color-blue-dark);}
+.r-item.step1 .sphere, .r-item.step1 .title {background-color: var(--color-blue-dark);}
+.r-item.step1 .line {border-color: var(--color-blue-dark);}
 
 .r-item.step2 li {color: #255faa;}
 .r-item.step2 .sphere, .r-item.step2 .title {background-color: #255faa;}

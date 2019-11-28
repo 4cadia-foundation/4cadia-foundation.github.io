@@ -3,12 +3,12 @@
   --color-primary-darker: #742d75;
   --color-primary-lighter: #b67cb7;
   --color-bg-page: #e5e5e5;
-  --color-4cadia-bg: #071d49;
-  --color-bg-input: #fff;
-  --color-bg-card: #fff;
+  --color-4cadia-bg: var(--color-blue-dark);
+  --color-bg-input: var(--color-white);
+  --color-bg-card: var(--color-white);
   --color-text: #222222;
   --color-text-input: #4c4c4c;
-  --color-text-negative: #fff;
+  --color-text-negative: var(--color-white);
   --font-size-hero-title: 3rem;
   --font-size-hero-subtitle: 1.75rem;
   --font-size-section-title: 3.30rem;

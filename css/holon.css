@@ -30,7 +30,7 @@ main {
 }
 
 .header-logo {
-    background: #071D49;
+    background: var(--color-blue-dark);
 }
 
 .logo img {
@@ -40,7 +40,7 @@ main {
 }
 
 .translate {
-    background: #ffffff;
+    background: var(--color-white);
     position: absolute;
     width: 10vw;
     height: 10vw;
@@ -50,7 +50,7 @@ main {
 }
 
 .background {
-    background: linear-gradient( 70.55deg, #1A4DA0 0%, #00063C 71.88%, #071D49 100%);
+    background: linear-gradient( 70.55deg, #1A4DA0 0%, #00063C 71.88%, var(--color-blue-dark) 100%);
     position: relative;
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ main {
     font-size: 1.50em;
     display: flex;
     flex-direction: column;
-    color: #ffff;
+    color: var(--color-white)f;
 }
 
 .holon-logo img {
@@ -191,7 +191,7 @@ main {
 }
 
 .actors-box {
-    background: #fff;
+    background: var(--color-white);
     height: 400px;
     width: 32%;
     border-radius: 20px;
@@ -214,11 +214,11 @@ main {
 
 .box-two {
     background: #CE9037;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .box-two h2 {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .box-two p {
@@ -239,13 +239,13 @@ main {
 }
 
 .howworks-box {
-    background: #fff;
+    background: var(--color-white);
     height: 200px;
     width: 80%;
     margin-top: 1%;
     border-radius: 20px;
     box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2); 
-    border: 1px solid #C6CACC;   
+    border: 1px solid var(--color-gray-40);   
     display: flex;
 
 }
@@ -324,7 +324,7 @@ a:hover {
     border:1px solid #F0AD4E;
     display:inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color:var(--color-white);
     font-weight: bold;
     padding: 12px 16px;
     text-decoration:none;
@@ -356,7 +356,7 @@ a:hover {
 }
 
 .footer-developers {
-    color: #ffff;
+    color: var(--color-white)f;
     align-items: end;
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ a:hover {
 
 .footer-icon {
     width: 186px;
-    color: #ffff;
+    color: var(--color-white)f;
     margin-right: 33px;
     display: flex;
     flex-direction: column;
@@ -390,7 +390,7 @@ a:hover {
 }
 
 .footer-content a {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .separation-text {
