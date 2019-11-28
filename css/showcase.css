@@ -35,24 +35,48 @@
     float: left;
   }
   
-  .bg-image {
-    width: 90%;
-    height: 37vh;
-    background: black;
+  /* .bg-image {
+    width: 95%;
+    height: 50vh;
+    background-image: url(../assets/images/showcase/Rectangle-10.png);
     float: right;
     z-index: 1;
     position: relative;
-    top: 70px;
-    right: 40px;
+    top: 46px;
+    right: 2px;
+  } */
+
+
+  .bg-image::before {
+    background-image: url(../assets/images/showcase/Rectangle-10.png);
+    background-repeat: no-repeat;
+
   }
+
+  .bg-image {
+    width: 78%;
+    background-image: url(../assets/images/showcase/Rectangle-10.png);
+    float: right;
+    z-index: 1;
+    position: absolute;
+    padding: 40px 40px;
+    margin: 53px 50px;
+  }
+
   
   .text-box {
     background: #fff;
-    width: 300px;
-    height: 85%;
-    margin: auto 0;
-    opacity: 0.5;
+    width: 201px;
+    margin: 0 12px;
+    opacity: 0.7;
     right: 0px;
-    position: relative;
+    float: right;
+    text-align: center;
+    padding: 7px 2px 32px;
+  }
+
+  .text-box p {
+    margin: 0 21px;
+    font-size: 12px;
   }
   
