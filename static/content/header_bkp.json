@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "About",
+      "path": "/about"
+    },  
+    {
+        "title": "Manifesto",
+        "path": "/manifesto"
+    },
+    {
+      "title": "FAQ",
+      "href": "https://janusproj.atlassian.net/wiki/"
+    }
+  ],
+  "logo": "/static/images/logo_white.svg",
+  "title": ""
+}
