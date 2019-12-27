@@ -1,0 +1,128 @@
+[
+  {
+    "type": "list_hero",
+    "content": {
+      "title": "Governance Token",
+      "text": "<p>L3T’S BU1LD THE D3CENTR4L1ZED <br>FUTUR3 TOG3THER</p>",
+      "image": "",
+      "logo": "./static/images/logo_white.svg"
+    }
+  },
+  {
+    "type": "list_paragraph",
+    "content": {
+      "type": "square",
+      "title": "What’s the token purpose?",
+      "text": "<p>The governance of the 4CADIA Foundation is divided through voting shares which grant voting rights to its owner and 4GT (4CADIA Governance Token) are required to interact with the smart contracts. 4GT are collateralized at 1:1 to voting shares of the 4CADIA Foundation and owners can use these tokens to vote on specific subjects, described in the 4CADIA Governance Contract. 4GT have a controlled supply mechanism and can be exchanged freely globally.</p>",
+      "containerClass": "text-left"
+    }
+  },  {
+    "type": "list_paragraph",
+    "content": {
+      "type": "full",
+      "title": "How I get the Token?",
+      "text": "<p>To purchase token is necessary to connect to one of the identity providers listed, make a registration in the platform, deposit the value in Ether and check the announced auctions. After choosing the auction, the member needs to place a blind offer of volume (in percentage) and price per token, during the bidding process anyone can change their bid (this period expires in 30 days). At the end of the auction, the highest bids (by price per token) are fulfilled until the amount of funds earned cover the forecasted costs.</p>",
+      "containerClass": "text-right"
+
+    }
+  },
+  {
+    "type": "list_card",
+    "content": {
+      "title": "Member Benefits",
+      "data": [
+        {
+          "icon": "./static/images/utility.svg",
+          "title": "Utility Token",
+          "text": "<p>Facilitate the distribution and sharing of rewards and benefits in 4Cadia's integrated dapps.</p>"
+        },
+        {
+          "icon": "./static/images/premium.svg",
+          "title": "Premium Access",
+          "text": "<p>Participate in the early stages  integrated tests of the 4CADIA ecosystem</p>"
+        },
+        {
+          "icon": "./static/images/airdrop.svg",
+          "title": "Airdrops",
+          "text": "<p>Receive airdrops from specific solutions inside the ecosystem to create network effect.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "type": "list_card",
+    "content": {
+      "title": "Interaction",
+      "type": "full",
+      "data": [
+        {
+          "icon": "./static/images/governance.svg",
+          "title": "Governance",
+          "text": "<p>All 4GT owners will be entitled to vote on subjects described in the 4CADIA Governance Contract. The voting will last 30 days and the results will be tallied and circulated to the voting participants. Tokens used for voting are not spent, they remain in the wallet and only has voting power if the wallet is identifiable inside the compatible identity solutions that the foundation accept.</p>"
+        },
+        {
+          "icon": "./static/images/bylaw.svg",
+          "title": "Confidence Motion",
+          "text": "<p>Governing members may interact with the governance ecosystem by initiating or taking part in a confidence motion to vote on by-law changes or to vote on hiring or firing executive members.</p>"
+        },
+        {
+          "icon": "./static/images/auction.svg",
+          "title": "Auction",
+          "text": "<p>4GT auction platform aims to provide members a fair and transparent experience with valid data, accumulated auction history and proven users by a secure identity.</p>"
+        }
+      ]
+    }
+  }, {
+    "type": "call_to_action",
+    "content": {
+      "title": "Be part of this project",
+      "text": "<p>You can buy tokens and participate of our <br>organization or help with our open source code</p>"
+    }
+  },
+  {
+    "type": "roadmap",
+    "content": {
+      "title": "Roadmap",
+      "text": "<p>See the next deliveries of our organization</p>",
+      "list": {
+        "data": [
+          {
+            "title": "Initial Release",
+            "text": "<p1>-Token in MainNet <br> -Store in wallet <br> -Transact</p1>"
+          },
+          {
+            "title": "Auction (Beta)",
+            "text": "<p2>-Interactive Token <br> - Auction (ETH only) <br> -Token smart contract proxy <br> - Payment in ETH </p2>"
+          },
+          {
+            "title": "Auction Release",
+            "text": "<p3>-Account <br> -View auction <br> -Manage bids <br> -Payment in Crypto and Fiat</p3>"
+          },
+          {
+            "title": "Governance",
+            "text": "<p4>-Vote Yes/No <br> -Vote cadidates <br> -Vote until threshold</p4>"
+          },
+          {
+            "title": "Automation",
+            "text": "<p5>-Governance integration <br> -Smart contracts interoperability</p5>"
+          }
+        ]
+      }
+
+    }
+  },
+  {
+    "type": "newsletter",
+    "content": {
+      "title": "Join the community",
+      "text": "We try to avoid spam and deliver things that matter"
+    }
+  },
+  {
+    "type": "newsletter",
+    "content": {
+      "title": "Join the community",
+      "text": "We try to avoid spam and deliver things that matter"
+    }
+  }
+]
