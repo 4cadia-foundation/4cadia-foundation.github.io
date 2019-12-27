@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Foundation",
+      "path": "/foundation"
+    },
+    {
+      "title": "Factory",
+      "path": "/factory"
+    },
+    {
+      "title": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "logo": "/static/images/logo_white.svg",
+  "title": "4CADIA"
+}
