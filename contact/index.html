@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L3T’S BU1LD THE D3CENTR4L1ZED FUTUR3">
+    <meta name="author" content="4Cadia">
+
+    <link rel='icon' href='../assets/icons/logo_icon.png' type='image/x-icon'>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../js/newsletter.js"></script>
+    <title>4CADIA - Home</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <div class="header">
+                <img class="logo" src="../assets/images/logo_white.png" alt="logo 4cadia" />
+
+                <input id="dropdown" class="hamburguer-check" type="checkbox">
+                <label for="dropdown" class="hamburguer-label">
+                    <div class="menu-hamb">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul class="header-itens">
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../foundation">Foundation</a></li>
+                    <li><a href="../factory">Factory</a></li>
+                    <li><a href="../governance">Governance</a></li>
+                    <li><a href="../contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <section id="section-banner">
+
+            <div class="banner-content">
+               <div class="contact">
+
+                   <div class="contact__header">
+                       <h2 class="contact__header__title">Contact</h2>
+                       <p class="contact__header__text">Fill out the form and we will contact you shortly</p>
+                   </div>
+
+                   <form class="formcontact" id="formContact">
+
+                       <input type="email" class="formcontact__input" placeholder="Email" required>
+
+                       <div class="formcontact__validation">
+                           <p class="formcontact__text--alert">* Required Field</p>
+                       </div>
+
+                       <textarea class="formcontact__textarea" placeholder="Question" required></textarea>
+
+                       <div class="formcontact__validation">
+                           <p class="formcontact__text--alert">* Required Field</p>
+                       </div>
+
+
+                       <div class="messages">
+                           <p class="messages--success">Thanks, message sent successfully.</p>
+                           <p class="messages--failure">Sorry, try again later.</p>
+                       </div>
+
+
+                       <button type="submit" class="formcontact__submit">Submit</button>
+                   </form>
+
+
+
+
+               </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/contact.js"></script>
+
+</body>
+</html>
